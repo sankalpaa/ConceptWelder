@@ -14,6 +14,8 @@ Error
 ![image](https://github.com/sankalpaa/ConceptWelder/assets/7065759/3c5b6565-a63d-4dcc-820a-cd900b7b88e1)
 Solution
 Get google map API key from google cloud platform.
+Add next.config.js file to read environment variable from client side.
+
 
 basic map
 `    <div style={{ height: "100vh", width: "100%" }}>
@@ -26,6 +28,18 @@ importent points
  set style to set width and height
 
 3. Show basic marker
+
+`             <AdvancedMarker
+              position={{ lat: 7.9840886, lng: 80.7029496 }}
+            ></AdvancedMarker>`
+            `
+            GOOGLE_MAPS_ID= 'can get from google cloud'
+            `
+            //more details aboug map id
+
+            `const googleMapId = process.env.GOOGLE_MAPS_ID;`
+            `<Map center={mapCenter} zoom={9} mapId={googleMapId}>`
+            
 4. Show more markers
 5. Show info window
 6. Show cluster
