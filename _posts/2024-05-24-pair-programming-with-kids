@@ -3,6 +3,7 @@ title: "Pair-programming with Kids"
 date: 2024-05-24
 ---
 
+
 # Pair-programming with Kids
 
 As a dad, I want to teach my kids the things I learned later in life, hoping they get a head start. One day, I decided to introduce my three kids to the world of programming, starting with HTML because I thought it would be easy. To my surprise, only one of them was interested.
@@ -52,28 +53,32 @@ Front and rear axle from old toy
 
 After spending 1-2 days on mechanical work, they came back with a chassis built from plastic bars, two different types of wheels, and a working front axle. The vehicle wasn't very solid, but it was enough for an experimental version. The front axle consisted of two motors: one for moving forward and backward, and another for turning left and right.
 
-Then we tested both axle machanism with external power source, Only fron axle is completely working rear one have some machanical issue. 
-And we could find two 1200mah batteries from old emergency lamp.
-We start setting up Arduino IDE, and kids start with ['Blink'](https://blynk.io/) sample code and try to understand the code.  
-And I asked to write some pseudo code of the program, Elder brather already learned that lesson in school. What they write is acceptable. 
+Then we tested both axle mechanisms and found that only the front axle was working completely. The rear axle had some mechanical issues, but it was enough to build an "experimental", "simplified" or "simplified" version of the Jeep.
+
+And could find two 1200mah batteries from old emergency lamp.
+
+Next, we got started with the Arduino IDE and try to understand simple code. We used the [Ardunio Blink LED](https://docs.arduino.cc/built-in-examples/basics/Blink/) sample.
+ 
+Taking it one step further, we planned our real code. I asked them to write some pseudocode for the program. The elder brother had already learned this in school, and what they wrote was acceptable.
 
 Pseudo code
-
 ![Pseudo code](/Pseudo%20code.jpg "Pseudo code")
 
 That was the first virtual sprint we ran.
 
-Next day we together create a list of hardware items required. I shared the guideline article them then they complete the wiring of two motors, motor control, node mcu with battery pack.
-We start our program and try to do run car forward for 5 seconds. After succssful with that. I asked them to complete the other movements. 
-Our plan was to do Forward, reverse, turn-left and turn-rigth in given time period with small time gap.
-After few round of test and bug fixing they could achive that.
-Then I thought this is good time to introduce refactring. 
-And we write first custom function to move car forward, with time period as parameter. And they have write other functions alone.
-Thats the second sprint and Experimental jeep version.
+We started the next sprint by preparing other required items. We bought an L298N motor controller and other necessary parts from a nearby electronics shop, and they completed the wiring.
 
-They egally wating for this step to controll there 'jeep' remotly. And already watching some vedios how to do that have found they can do that using 'Blnk' platform.
-First my plan was to build a web page and controlled 'jeep' over that, But I thought 'Blnk' is easy to understand them. 
-Then we installed required library, download mobile app, and modify the code to support 'Blnk' with only forward. 
+Next, it was pair programming time. We needed to program our vehicle for actions: forward, reverse, turn left, and turn right. Together at one desk, I showed them how to program the vehicle to go forward. Then, with my help, they programmed it to reverse. They managed to program it to turn left and right by themselves. After a few rounds of testing and bug fixing, they achieved that.
+
+As all the vehicle's actions were handled by a single function, I thought it was a good time to introduce 'Code Refactoring.' Together, we created the first custom function to handle the forward action. After they completed the other three functions, we marked the end of the second sprint.
+
+And also that marked the completion of the first step, the 'Experimental Jeep Version,' of this project.
+
+They egally wating for to controll there 'jeep' remotly. And already watching some vedios how to do that have found they can do that using 'Blnk' platform.
+['Blink'](https://blynk.io/)
+
+First our plan was to build a web page and controlled 'jeep' over that, But I thought 'Blnk' is easy to understand and less complecated for them. 
+Then we installed required library, download mobile app, and modify the code to support 'Blnk' with only forward action. 
 Code compiled but failed to upload to the module. Trying few more time but result was same.
 Then we found issue is with board, we were using CH340 board which is less reliable than CP2102 board. 
 We have to wait about 5-6 days till the new board received. 
@@ -91,6 +96,8 @@ They built there own remote controlled car.
 ![Pseudo code](/Completed%20Front%20view.jpg "Completed front view")
 I am going to stop here with the end of Basic jeep version. 
 Simplified and complete version yet to come.
+
+
 
 
 
