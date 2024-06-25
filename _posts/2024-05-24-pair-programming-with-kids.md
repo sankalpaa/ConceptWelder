@@ -37,9 +37,9 @@ This phase's milestone is to have something controlled by an Arduino board.
 
 To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested ordering differentials and other required parts for the Jeep online, even though it might take some time for them to be delivered. But the kids said, "No, we have a differential from an old toy. We can build the chassis ourselves," the brothers insisted.
 
-![Items found from home](././assets/2024-05-24/Items%20in%20hand.jpg "Items found from home")
+![Items found from home]({{site.baseurl}}/assets/Items%20in%20hand.jpg "Items found from home")
 
-![Front axle](../assets/2024-05-24/Front%20axle.jpg "Items found from home")
+![Front axle]({{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg "Items found from home")
 
 ![Rear axle](./assets/2024-05-24/Rear%20axle%202.jpg "Items found from home")
 
