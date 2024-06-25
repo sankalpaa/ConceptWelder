@@ -43,7 +43,7 @@ ESP8266 and two batteris.
 ![Items found from home](/2024-05-24/Items%20in%20hand.jpg "Items found from home")
 
 Front and rear axle from old toy
-![Front axle](/Front%20axle.jpg "Items found from home")
+![Front axle](../_posts/2024-05-24/Completed%20Front%20view.jpg "Items found from home")
 
 ![Rear axle](/Rear%20axle%202.jpg "Items found from home")
 
