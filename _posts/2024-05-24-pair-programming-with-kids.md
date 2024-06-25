@@ -6,7 +6,7 @@ As a dad, I want to teach my kids the things I learned later in life, hoping the
 
 I am always inspired by watching Dr. Ruchira Wijerathna's  ['Science With Ruchira'](https://www.youtube.com/@ScienceWithRuchira) YouTube channel. One day, I showed my kids his ['DIY Arduino RC Car'](https://www.youtube.com/watch?v=T7A0ICf_pa4) video (In Sinhala Language), as they are big fans of vehicles. 
 
-[![Watch the video](../_posts/2024-05-24/DIY%20Arduino%20RC%20Car%20%20-%20Sceince%20with%20Ruchira.PNG)](https://www.youtube.com/watch?v=T7A0ICf_pa4)
+[![Watch the video](./_posts/2024-05-24/DIY%20Arduino%20RC%20Car%20%20-%20Sceince%20with%20Ruchira.PNG)](https://www.youtube.com/watch?v=T7A0ICf_pa4)
 
 After watching the video, they asked me, "Can't we build one?" I thought it was a great opportunity to introduce them to programming and the basics of project management. 
 I said, "Yes, you can build it yourselves. I can help." 
@@ -39,7 +39,7 @@ This phase's milestone is to have something controlled by an Arduino board.
 
 To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested ordering differentials and other required parts for the Jeep online, even though it might take some time for them to be delivered. But the kids said, "No, we have a differential from an old toy. We can build the chassis ourselves," the brothers insisted.
 
-![Items found from home](../_posts/2024-05-24/Items%20in%20hand.jpg "Items found from home")
+![Items found from home](./_posts/2024-05-24/Items%20in%20hand.jpg "Items found from home")
 
 ![Front axle](../_posts/2024-05-24/Front%20axle.jpg "Items found from home")
 
