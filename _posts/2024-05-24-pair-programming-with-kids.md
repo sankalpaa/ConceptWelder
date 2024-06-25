@@ -6,7 +6,7 @@ As a dad, I want to teach my kids the things I learned later in life, hoping the
 
 I am always inspired by watching Dr. Ruchira Wijerathna's  ['Science With Ruchira'](https://www.youtube.com/@ScienceWithRuchira) YouTube channel. One day, I showed my kids his ['DIY Arduino RC Car'](https://www.youtube.com/watch?v=T7A0ICf_pa4) video (In Sinhala Language), as they are big fans of vehicles. 
 
-[![Watch the video](/DIY%20Arduino%20RC%20Car%20%20-%20Sceince%20with%20Ruchira.PNG)](https://www.youtube.com/watch?v=T7A0ICf_pa4)
+[![Watch the video](../_posts/2024-05-24/DIY%20Arduino%20RC%20Car%20%20-%20Sceince%20with%20Ruchira.PNG)](https://www.youtube.com/watch?v=T7A0ICf_pa4)
 
 After watching the video, they asked me, "Can't we build one?" I thought it was a great opportunity to introduce them to programming and the basics of project management. 
 I said, "Yes, you can build it yourselves. I can help." 
@@ -39,13 +39,11 @@ This phase's milestone is to have something controlled by an Arduino board.
 
 To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested ordering differentials and other required parts for the Jeep online, even though it might take some time for them to be delivered. But the kids said, "No, we have a differential from an old toy. We can build the chassis ourselves," the brothers insisted.
 
-ESP8266 and two batteris.
-![Items found from home](/Items%20in%20hand.jpg "Items found from home")
+![Items found from home](../_posts/2024-05-24/Items%20in%20hand.jpg "Items found from home")
 
-Front and rear axle from old toy
-![Front axle](/Front%20axle.jpg "Items found from home")
+![Front axle](../_posts/2024-05-24/Front%20axle.jpg "Items found from home")
 
-![Rear axle](/Rear%20axle%202.jpg "Items found from home")
+![Rear axle](../_posts/2024-05-24/Rear%20axle%202.jpg "Items found from home")
 
 After spending 1-2 days on mechanical work, they came back with a chassis built from plastic bars, two different types of wheels, and a working front axle. The vehicle wasn't very solid, but it was enough for an experimental version. The front axle consisted of two motors: one for moving forward and backward, and another for turning left and right.
 
@@ -58,7 +56,7 @@ Next, we got started with the Arduino IDE and try to understand simple code. We 
 Taking it one step further, we planned our real code. I asked them to write some pseudocode for the program. The elder brother had already learned this in school, and what they wrote was acceptable.
 
 Pseudo code
-![Pseudo code](/Pseudo%20code.jpg "Pseudo code")
+![Pseudo code](../_posts/2024-05-24/Pseudo%20code.jpg "Pseudo code")
 
 That was the first virtual sprint we ran.
 
@@ -80,7 +78,7 @@ Then we found issue is with board, we were using CH340 board which is less relia
 We have to wait about 5-6 days till the new board received. 
 
 NodeMcu V3 Lua CP2102 ESP8266 Development Board
-![New board](/CP2102%20ESP8266%20board.jpg "NodeMcu V3 Lua CP2102 ESP8266 Development Board")
+![New board](../_posts/2024-05-24/CP2102%20ESP8266%20board.jpg "NodeMcu V3 Lua CP2102 ESP8266 Development Board")
 
 Re-start the project again, upload the code and tested. But 'jeep' only going forward, no turning or even not stopping regardless of what ever the command we sent. 
 First we thought issue with the wiring, but later found issue with code it self. 
@@ -88,8 +86,8 @@ In code refactring they have copy and paste the same values to every function.
 Finally its working. 
 They built there own remote controlled car. 
 
-![Pseudo code](/Completed%20top%20view.jpg "Completed top view")
-![Pseudo code](/Completed%20Front%20view.jpg "Completed front view")
+![Pseudo code](../_posts/2024-05-24/Completed%20top%20view.jpg "Completed top view")
+![Pseudo code](../_posts/2024-05-24/Completed%20Front%20view.jpg "Completed front view")
 I am going to stop here with the end of Basic jeep version. 
 Simplified and complete version yet to come.
 
