@@ -34,7 +34,6 @@
         background-color: #555;
         color: white;
         padding: 15px;
-        margin-bottom: 30px;
       }
 
       .header-banner {
@@ -48,6 +47,15 @@
         text-align: center;
         margin-top: 25px;
         margin-bottom: 25px;
+      }
+
+      .header-sub-title {
+        text-align: center;
+        font-style: italic;
+      }
+
+      .body-content {
+        padding-left: 10px;
       }
       
       /* Set black background color, white text and some padding */
@@ -71,19 +79,17 @@
     <header class="container-fluid">
       <!-- <img src="../assets/HeaderBanner.jpg" class="header-banner"> -->
        <h1 class="header-title">Concept Welder</h1>
+       <h5 class="header-sub-title">"When the pupil is ready the teacher appears"</h5>
     </header>
     <div class="container-fluid">
       <div class="row content">
-        <div class="col-sm-12">
-          <h4><small>RECENT POSTS</small></h4>
-          <hr>
+        <div class="col-sm-12 body-content">
           {{ content }}
-          <hr>
         </div>
       </div>
     </div>
     <footer class="container-fluid">
-      <p>Footer Text</p>
+      <a href="https://www.linkedin.com/in/sankalpaabeygunawardhana/"> <span class="glyphicon glyphicon-copyright-mark"></span> Sankalpa Abeygunawardhana 2024</a>
     </footer>
   </body>
 </html>
