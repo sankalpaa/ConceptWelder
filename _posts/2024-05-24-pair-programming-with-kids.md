@@ -60,34 +60,30 @@ That was the first virtual sprint we ran.
 
 We started the next sprint by preparing other required items. We bought an L298N motor controller and other necessary parts from a nearby electronics shop, and they completed the wiring.
 
-Next, it was pair programming time. We needed to program our vehicle for actions: forward, reverse, turn left, and turn right. Together at one desk, I showed them how to program the vehicle to go forward. Then, with my help, they programmed it to reverse. They managed to program it to turn left and right by themselves. After a few rounds of testing and bug fixing, they achieved that.
+Next, it was pair programming time. We needed to program our vehicle for actions: forward, reverse, turn left, and turn right. Together at one desk, I showed them how to program the vehicle to go forward. Using this function vehicale could go forward to given time.
+ Then, with my help, they programmed it to reverse. They managed to program it to turn left and right by themselves. After a few rounds of testing and bug fixing, they achieved that.
+Then we had a 'jeep' which run forward few seconds, then reverse back and turn left and right by it self. No action can be controll remotly. 
 
 As all the vehicle's actions were handled by a single function, I thought it was a good time to introduce 'Code Refactoring.' Together, we created the first custom function to handle the forward action. After they completed the other three functions, we marked the end of the second sprint.
 
 And also that marked the completion of the first step, the 'Experimental Jeep Version,' of this project.
 
-They egally wating for to controll there 'jeep' remotly. And already watching some vedios how to do that have found they can do that using 'Blnk' platform.
-['Blink'](https://blynk.io/)
+My initial plan was to build a webpage to control the vehicle. However, when I mentioned this, their faces didn't look enthusiastic. They had already watched some videos and had ideas about other solutions. They said, "We saw something called B_ly_nk. Can't we use that?" After thinking for a moment, I realized they were right. They were eager to control their vehicle remotely, and building a webpage might be too complicated, potentially causing them to lose interest in the project. So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
 
-First our plan was to build a web page and controlled 'jeep' over that, But I thought 'Blnk' is easy to understand and less complecated for them. 
-Then we installed required library, download mobile app, and modify the code to support 'Blnk' with only forward action. 
-Code compiled but failed to upload to the module. Trying few more time but result was same.
-Then we found issue is with board, we were using CH340 board which is less reliable than CP2102 board. 
-We have to wait about 5-6 days till the new board received. 
+Blynk is easy to understand and less complicated for them. We installed the required library, downloaded the mobile app, and modified the code to support it. First, we tested it with only the forward action. The code compiled but failed to upload to the module. After trying a few more times with the same result, we discovered the issue was with the board and the same problem occurred with other similar boards. We found that we were using CH340 boards, which are less reliable than CP2102 boards. We had to wait about 5-6 days until the new CP2102 board arrived 
 
 NodeMcu V3 Lua CP2102 ESP8266 Development Board
 ![New board]({{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg "NodeMcu V3 Lua CP2102 ESP8266 Development Board")
 
-Re-start the project again, upload the code and tested. But 'jeep' only going forward, no turning or even not stopping regardless of what ever the command we sent. 
-First we thought issue with the wiring, but later found issue with code it self. 
-In code refactring they have copy and paste the same values to every function. 
-Finally its working. 
-They built there own remote controlled car. 
+We restarted the project the day the new board arrived, uploaded the code, and tested it. We tested the forward action first through the Blynk app, and it worked. Then, they had to complete the other actions. After an hour or so, they came back complaining that even when they tried to reverse or turn left or right, the 'Jeep' only went forward.
+
+We started debugging by first checking the wiring to ensure there were no issues. Then, we began checking the code. We found that we had four different functions for each action, but all the actions were identical. At first, I wondered how this happened since we had already tested our 'Jeep' actions in the second sprint. Later, I realized that the issue occurred after the code refactoring, and we hadn't run any unit tests since then.
+
+We corrected the code, and finally, it worked. I still remember their faces after successfully owning their own built remote-controlled 'Jeep.'
 
 ![Pseudo code]({{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg "Completed top view")
 ![Pseudo code]({{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg "Completed front view")
-I am going to stop here with the end of Basic jeep version. 
-Simplified and complete version yet to come.
 
+I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
 
 
