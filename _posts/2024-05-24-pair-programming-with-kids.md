@@ -12,7 +12,7 @@ After watching the video, they asked me, "Can't we build one?" I thought it was 
 I said, "Yes, you can build it yourselves. I can help." 
 Their next question was, "How can we build such a vehicle ourselves?"
 
-When I heard their question, I remembered what I learned from [Johanes Broadwell](https://github.com/jhannes) 10 years ago, He taught us that any project (or any task in a big project) can be achieved by breaking it down into four steps.
+When I heard their question, I remembered what I learned from [Johanes Broadwell](https://johannesbrodwall.com/about/) 10 years ago, He taught us that any project (or any task in a big project) can be achieved by breaking it down into four steps.
 1. Experimental version
 2. Basic version
 3. Simplified version
