@@ -86,4 +86,5 @@ We corrected the code, and finally, it worked. I still remember their faces afte
 
 I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
 
+<img src="https://github.com/favicon.ico" width="48">
 
