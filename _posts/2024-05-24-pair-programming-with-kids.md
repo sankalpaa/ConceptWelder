@@ -40,13 +40,13 @@ To start the project, we checked what we had on hand. We had only one NodeMCU bo
 <table>
   <row>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" width="100">
+    <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" width="200">
    </td>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" width="100">
+    <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" width="200">
    </td>
   <td>
-   <img src="https://github.com/favicon.ico" width="48">
+   <img src={{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg width="200">
   </td>   
   </row>
 </table>
