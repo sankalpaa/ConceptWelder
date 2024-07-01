@@ -41,13 +41,13 @@ Items found from home:
 <table style="width=90%">
   <row>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" alt="Items found from home" width="33%">
+    <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" title="Items found from home" width="33%">
    </td>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" alt="Items found from home" width="33%">
+    <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" title="Items found from home" width="33%">
    </td>
   <td>
-   <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" alt="Items found from home" width="33%">
+   <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" title="Items found from home" width="33%">
   </td>   
   </row>
 </table>
@@ -90,8 +90,17 @@ We started debugging by first checking the wiring to ensure there were no issues
 
 We corrected the code, and finally, it worked. I still remember their faces after successfully owning their own built remote-controlled 'Jeep.'
 
-![Pseudo code]({{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg "Completed top view")
-![Pseudo code]({{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg "Completed front view")
+Completed View:
+<table style="width=90%">
+  <row>
+   <td>
+    <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg" title="Completed front view" width="50%">
+   </td>
+   <td>
+    <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg" title="Completed top view" width="50%%">
+   </td>  
+  </row>
+</table>
 
 I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
 
