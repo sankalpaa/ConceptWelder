@@ -37,11 +37,19 @@ This phase's milestone is to have something controlled by an Arduino board.
 
 To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested ordering differentials and other required parts for the Jeep online, even though it might take some time for them to be delivered. But the kids said, "No, we have a differential from an old toy. We can build the chassis ourselves," the brothers insisted.
 
-![Items found from home]({{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg "Items found from home")
-
-![Front axle]({{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg "Items found from home")
-
-![Rear axle]({{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg "Items found from home")
+<table>
+  <row>
+   <td>
+    <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" width="100">
+   </td>
+   <td>
+    <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" width="100">
+   </td>
+  <td>
+   <img src="https://github.com/favicon.ico" width="48">
+  </td>   
+  </row>
+</table>
 
 After spending 1-2 days on mechanical work, they came back with a chassis built from plastic bars, two different types of wheels, and a working front axle. The vehicle wasn't very solid, but it was enough for an experimental version. The front axle consisted of two motors: one for moving forward and backward, and another for turning left and right.
 
@@ -86,5 +94,5 @@ We corrected the code, and finally, it worked. I still remember their faces afte
 
 I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
 
-<img src="https://github.com/favicon.ico" width="48">
+
 
