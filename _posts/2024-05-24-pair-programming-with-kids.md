@@ -105,7 +105,7 @@ Some of their notes:
         to make it with my brother
         first he told he will show
         how to do it after lots of
-        work it looked like this" width="25%" height="100%"></a>
+        work it looked like this" width="100%" height="100%"></a>
    </td>
    <td>
     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
