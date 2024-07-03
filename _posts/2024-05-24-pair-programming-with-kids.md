@@ -69,7 +69,7 @@ Some of their notes:
 <table style="width=100%">
   <tr>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" title="Day 1
+    <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" ><img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" title="Day 1
         when I was watching a 
         video I found this
         video about a Remote control
@@ -78,7 +78,7 @@ Some of their notes:
         to make it with my brother
         first he told he will show
         how to do it after lots of
-        work it looked like this" width="25%" height="100%">
+        work it looked like this" width="25%" height="100%"></a>
    </td>
    <td>
     <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2
