@@ -68,6 +68,21 @@ Pseudo code
 ![Pseudo code]({{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg "Pseudo code")
 
 That was the first virtual sprint we ran.
+Some of their notes:
+<table style="width=90%">
+  <row>
+   <td>
+    <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" title="Items found from home" width="33%">
+   </td>
+   <td>
+    <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" title="Items found from home" width="33%">
+   </td>
+  <td>
+   <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" title="Items found from home" width="33%">
+  </td>   
+  </row>
+</table>
+
 
 We started the next sprint by preparing other required items. We bought an L298N motor controller and other necessary parts from a nearby electronics shop, and they completed the wiring.
 
