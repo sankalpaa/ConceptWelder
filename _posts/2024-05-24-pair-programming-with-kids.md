@@ -66,6 +66,33 @@ Taking it one step further, we planned our real code. I asked them to write some
 That was the first virtual sprint we ran.
 
 Some of their notes:
+<div class="row">
+    <div class="col-md-4">
+        <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" ><img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" title="Day 1
+        when I was watching a 
+        video I found this
+        video about a Remote control
+        jeep I thout I could play
+        with it all day so I startet
+        to make it with my brother
+        first he told he will show
+        how to do it after lots of
+        work it looked like this"></a>
+    </div>
+    <div class="col-md-4">
+        <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" ><img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" title="Day 1
+        when I was watching a 
+        video I found this
+        video about a Remote control
+        jeep I thout I could play
+        with it all day so I startet
+        to make it with my brother
+        first he told he will show
+        how to do it after lots of
+        work it looked like this"></a>
+    </div>
+</div>
+
 <table style="width=100%">
   <tr>
    <td>
