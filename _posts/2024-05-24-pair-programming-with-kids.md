@@ -81,6 +81,7 @@ Some of their notes:
         work it looked like this" width="25%" height="100%"></a>
    </td>
    <td>
+    <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
     <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2
         So after that we had all set
         not all because we had to
@@ -94,13 +95,15 @@ Some of their notes:
         day so now the hard
         part was over we had
         to put the programe
-        it to the Node MCU" width="25%" height="100%">
+        it to the Node MCU" width="25%" height="100%"></a>
    </td>
   <td>
-   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" title="Day 3" width="25%" height="100%">
+   <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" target="_blank" >
+   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" title="Day 3" width="25%" height="100%"></a>
   </td>
           <td>
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" title="Day 4" width="25%">
+           <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" target="_blank" >
+        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" title="Day 4" width="25%"></a>
         </td>
   </tr>
     <tr>
