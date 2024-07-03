@@ -72,17 +72,49 @@ Some of their notes:
 <table style="width=90%">
   <row>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" title="Items found from home" width="33%">
+    <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" title="Day 1
+when I was watching a 
+video I found this
+video about a Remote control
+jeep I thout I could play
+with it all day so I startet
+to make it with my brother
+first he told he will show
+how to do it after lots of
+work it looked like this" width="33%">
    </td>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" title="Items found from home" width="33%">
+    <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2
+So after that we had all set
+not all because we had to
+programe if we didn'
+programe nothing would happen
+so we programe it was hard
+to programe all the stuff
+because if had a small
+mistake we have to do it
+again so we programe it all
+day so now the hard
+part was over we had
+to put the programe
+it to the Node MCU" width="33%">
    </td>
   <td>
-   <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" title="Items found from home" width="33%">
-  </td>   
+   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" title="Day 3" width="33%">
+  </td>
   </row>
+ <row>
+     <td>
+   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" title="Day 4" width="33%">
+  </td>
+       <td>
+   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_pin_diagram.jpg" title="Pin diagram" width="33%">
+  </td>
+       <td>
+   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="33%">
+  </td>
+ </row>
 </table>
-
 
 We started the next sprint by preparing other required items. We bought an L298N motor controller and other necessary parts from a nearby electronics shop, and they completed the wiring.
 
