@@ -5,7 +5,7 @@ As a dad, I want to teach my kids the things I learned later in life, hoping the
 I am always inspired by watching Dr. Ruchira Wijerathna's  ['Science With Ruchira'](https://www.youtube.com/@ScienceWithRuchira) YouTube channel. One day, I showed my kids his ['DIY Arduino RC Car'](https://www.youtube.com/watch?v=T7A0ICf_pa4) video (In Sinhala Language), as they are big fans of vehicles. 
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 body-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/T7A0ICf_pa4?si=fQ-Fly_rihbAxKSs"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -45,19 +45,6 @@ This phase's milestone is to have something controlled by an Arduino board.
 To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested ordering differentials and other required parts for the Jeep online, even though it might take some time for them to be delivered. But the kids said, "No, we have a differential from an old toy. We can build the chassis ourselves," the brothers insisted.
 
 Items found from home:
-<table style="width=90%">
-  <row>
-   <td>
-    
-   </td>
-   <td>
-    
-   </td>
-  <td>
-   
-  </td>   
-  </row>
-</table>
 <div class="row">
     <div class="col-md-4">
         <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" title="Items found from home">
@@ -84,7 +71,9 @@ Some of their notes:
 <div class="row">
     <div class="col-md-3">
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
-         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1
+         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1">
+        </a>
+        'Day 1
         when I was watching a 
         video I found this
         video about a Remote control
@@ -93,7 +82,7 @@ Some of their notes:
         to make it with my brother
         first he told he will show
         how to do it after lots of
-        work it looked like this"></a>
+        work it looked like this'
     </div>
     <div class="col-md-3">
     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
@@ -133,25 +122,22 @@ My initial plan was to build a webpage to control the vehicle. However, when I m
 
 Blynk is easy to understand and less complicated for them. We installed the required library, downloaded the mobile app, and modified the code to support it. First, we tested it with only the forward action. The code compiled but failed to upload to the module. After trying a few more times with the same result, we discovered the issue was with the board and the same problem occurred with other similar boards. We found that we were using CH340 boards, which are less reliable than CP2102 boards. We had to wait about 5-6 days until the new CP2102 board arrived 
 
-NodeMcu V3 Lua CP2102 ESP8266 Development Board
-![New board]({{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg "NodeMcu V3 Lua CP2102 ESP8266 Development Board")
-
 We restarted the project the day the new board arrived, uploaded the code, and tested it. We tested the forward action first through the Blynk app, and it worked. Then, they had to complete the other actions. After an hour or so, they came back complaining that even when they tried to reverse or turn left or right, the 'Jeep' only went forward.
 
 We started debugging by first checking the wiring to ensure there were no issues. Then, we began checking the code. We found that we had four different functions for each action, but all the actions were identical. At first, I wondered how this happened since we had already tested our 'Jeep' actions in the second sprint. Later, I realized that the issue occurred after the code refactoring, and we hadn't run any unit tests since then.
 
 We corrected the code, and finally, it worked. I still remember their faces after successfully owning their own built remote-controlled 'Jeep.'
 
-Completed View:
-<table style="width=90%">
-  <row>
-   <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg" title="Completed front view" width="50%">
-   </td>
-   <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg" title="Completed top view" width="50%%">
-   </td>  
-  </row>
-</table>
+<div class="row">
+    <div class="col-md-4">
+         <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg" title="Completed front view">
+    </div>
+    <div class="col-md-4">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg" title="Completed top view">
+    </div>
+    <div class="col-md-4">
+        <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
+    </div>
+</div>
 
 I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
