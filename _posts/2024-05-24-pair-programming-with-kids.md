@@ -1,56 +1,33 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <img src="{{site.baseurl}}/assets/2024-05-24/page_banner.jpg" title="Pair-programming with Kids" width="25%"
-                style="margin-left:30%">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="header_title">Pair-programming with Kids</div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            As a dad, I want to teach my kids the things I learned later in life, hoping they get a head start. One
-            day, I decided to introduce my three kids to the world of programming, starting with HTML because I
-            thought it would be easy. To my surprise, only one of them was interested.
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 text-center">
-            I am always inspired by watching Dr. Ruchira Wijerathna's <a
-                href="https://www.youtube.com/@ScienceWithRuchira">Science With Ruchira</a> YouTube channel. One day, I
-            showed my kids his <a href='https://www.youtube.com/watch?v=T7A0ICf_pa4'>DIY Arduino RC Car</a> video (In
-            Sinhala Language), as they are big fans of vehicles.
-        </div>
-        <div class="col-md-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/T7A0ICf_pa4?si=fQ-Fly_rihbAxKSs"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+# Pair-programming with Kids
+
+As a dad, I want to teach my kids the things I learned later in life, hoping they get a head start. One day, I decided to introduce my three kids to the world of programming, starting with HTML because I thought it would be easy. To my surprise, only one of them was interested.
+
+I am always inspired by watching Dr. Ruchira Wijerathna's  ['Science With Ruchira'](https://www.youtube.com/@ScienceWithRuchira) YouTube channel. One day, I showed my kids his ['DIY Arduino RC Car'](https://www.youtube.com/watch?v=T7A0ICf_pa4) video (In Sinhala Language), as they are big fans of vehicles. 
+
+<div class="row">
+    <div class="col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T7A0ICf_pa4?si=fQ-Fly_rihbAxKSs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
-After watching the video, they asked me, "Can't we build one?" I thought it was a great opportunity to introduce
-them to programming and the basics of project management.
-I said, "Yes, you can build it yourselves. I can help."
+
+After watching the video, they asked me, "Can't we build one?" I thought it was a great opportunity to introduce them to programming and the basics of project management. 
+I said, "Yes, you can build it yourselves. I can help." 
 Their next question was, "How can we build such a vehicle ourselves?"
 
-When I heard their question, I remembered what I learned from [Johanes
-Broadwell](https://johannesbrodwall.com/about/) 10 years ago, He taught us that any project (or any task in a
-big project) can be achieved by breaking it down into four steps.
+When I heard their question, I remembered what I learned from [Johanes Broadwell](https://johannesbrodwall.com/about/) 10 years ago, He taught us that any project (or any task in a big project) can be achieved by breaking it down into four steps.
 1. Experimental version
 2. Basic version
 3. Simplified version
 4. Complete version
 5. Enhanced version (Optional)
 
-Johannes wrote about that experimental approach in his blog under [Pair programming with
-Sankalpa](https://johannesbrodwall.com/2014/06/27/pair-programming-with-sankalpa/).
+ Johannes wrote about that experimental approach in his blog under [Pair programming with Sankalpa](https://johannesbrodwall.com/2014/06/27/pair-programming-with-sankalpa/).
 I applied the same technique in several software projects, and I have personally found it very effective.
 
-I said 'Yes, you can build that in 4 steps'.
+I said 'Yes, you can build that in 4 steps'. 
 1. Experimental jeep version.
 2. Basic jeep version.
 3. Simplified jeep version.
@@ -61,14 +38,11 @@ Lets call it 'jeep', they named it.
 
 Our goal was to build an all-terrain vehicle with a camera for real-time viewing.
 
-First we started experimental jeep version.
+First we started experimental jeep version. 
 
 This phase's milestone is to have something controlled by an Arduino board.
 
-To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested
-ordering differentials and other required parts for the Jeep online, even though it might take some time for
-them to be delivered. But the kids said, "No, we have a differential from an old toy. We can build the chassis
-ourselves," the brothers insisted.
+To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested ordering differentials and other required parts for the Jeep online, even though it might take some time for them to be delivered. But the kids said, "No, we have a differential from an old toy. We can build the chassis ourselves," the brothers insisted.
 
 Items found from home:
 <table style="width=90%">
