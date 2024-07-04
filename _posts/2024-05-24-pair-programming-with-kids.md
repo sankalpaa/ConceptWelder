@@ -73,7 +73,7 @@ Some of their notes:
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
          <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1">
         </a>
-        <p class="fst-italic text-body-secondary">'Day 1
+        <div class="body-quated-text">'Day 1
         when I was watching a 
         video I found this
         video about a Remote control
@@ -82,12 +82,12 @@ Some of their notes:
         to make it with my brother
         first he told he will show
         how to do it after lots of
-        work it looked like this'</p>
+        work it looked like this'</div>
     </div>
     <div class="col-md-3">
     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
     <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2" width="100%"></a>
-        <p class="fst-italic">
+        <div class="body-quated-text>
         'Day 2
         So after that we had all set
         not all because we had to
@@ -102,13 +102,15 @@ Some of their notes:
         part was over we had
         to put the programe
         it to the Node MCU'
-        </p>
+        </div>
     </div>
         <div  class="col-md-3">
         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="100%">
+             <div class="body-quated-text>Some sketch</div>
         </div>
         <div  class="col-md-3">
         <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" title="Pseudo code" width="100%">
+                 <div class="body-quated-text>Pseudo code</div>
         </div>
 </div>
 
