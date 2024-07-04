@@ -68,7 +68,8 @@ That was the first virtual sprint we ran.
 Some of their notes:
 <div class="row">
     <div class="col-md-4">
-        <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" ><img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" title="Day 1
+        <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
+         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1
         when I was watching a 
         video I found this
         video about a Remote control
@@ -80,34 +81,6 @@ Some of their notes:
         work it looked like this"></a>
     </div>
     <div class="col-md-4">
-        <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" ><img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" title="Day 1
-        when I was watching a 
-        video I found this
-        video about a Remote control
-        jeep I thout I could play
-        with it all day so I startet
-        to make it with my brother
-        first he told he will show
-        how to do it after lots of
-        work it looked like this"></a>
-    </div>
-</div>
-
-<table style="width=100%">
-  <tr>
-   <td>
-    <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" ><img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" title="Day 1
-        when I was watching a 
-        video I found this
-        video about a Remote control
-        jeep I thout I could play
-        with it all day so I startet
-        to make it with my brother
-        first he told he will show
-        how to do it after lots of
-        work it looked like this" width="100%" height="100%"></a>
-   </td>
-   <td>
     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
     <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2
         So after that we had all set
@@ -122,30 +95,28 @@ Some of their notes:
         day so now the hard
         part was over we had
         to put the programe
-        it to the Node MCU" width="25%" height="100%"></a>
-   </td>
-  <td>
-   <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" target="_blank" >
-   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" title="Day 3" width="25%" height="100%"></a>
-  </td>
-          <td>
+        it to the Node MCU" width="100%"></a>
+    </div>
+ <div class="col-md-4">
+     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" target="_blank" >
+   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" title="Day 3" width="100%"></a>
+ </div>
+</div>
+<div class="row">
+           <div  class="col-md-3">
            <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" target="_blank" >
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" title="Day 4" width="25%"></a>
-        </td>
-  </tr>
-    <tr>
-        <td>
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_pin_diagram.jpg" title="Pin diagram" width="33%">
-        </td>
-        <td>
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="33%">
-        </td>
-        <td>
-        <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" title="Pseudo code" width="33%">
-        </td>
-    </tr>
-</table>
-
+        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" title="Day 4" width="100%"></a>
+        </div>
+                    <div  class="col-md-3">
+        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_pin_diagram.jpg" title="Pin diagram" width="100%">
+        </div>
+        <div  class="col-md-3">
+        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="100%">
+        </div>
+        <div  class="col-md-3">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" title="Pseudo code" width="100%">
+        </div>
+</div>
 We started the next sprint by preparing other required items. We bought an L298N motor controller and other necessary parts from a nearby electronics shop, and they completed the wiring.
 
 Next, it was pair programming time. We needed to program our vehicle for actions: forward, reverse, turn left, and turn right. Together at one desk, I showed them how to program the vehicle to go forward. Using this function vehicale could go forward to given time.
