@@ -47,13 +47,13 @@ To start the project, we checked what we had on hand. We had only one NodeMCU bo
 Items found from home:
 <div class="row">
     <div class="col-md-4">
-        <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" title="Items found from home">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" width="75%" title="Items found from home">
     </div>
     <div class="col-md-4">
-        <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" title="Items found from home">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" width="75%" title="Items found from home">
     </div>
     <div class="col-md-4">
-        <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" title="Items found from home">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" width="75%" title="Items found from home">
     </div>
 </div>
 After spending 1-2 days on mechanical work, they came back with a chassis built from plastic bars, two different types of wheels, and a working front axle. The vehicle wasn't very solid, but it was enough for an experimental version. The front axle consisted of two motors: one for moving forward and backward, and another for turning left and right.
@@ -137,10 +137,10 @@ We corrected the code, and finally, it worked. I still remember their faces afte
          <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg" title="Completed front view">
     </div>
     <div class="col-md-4">
-        <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg" title="Completed top view">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg" width="75%" title="Completed top view">
     </div>
     <div class="col-md-4">
-        <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
+        <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg" width="75%" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
     </div>
 </div>
 
