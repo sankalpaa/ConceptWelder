@@ -48,17 +48,27 @@ Items found from home:
 <table style="width=90%">
   <row>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" title="Items found from home" width="33%">
+    
    </td>
    <td>
-    <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" title="Items found from home" width="33%">
+    
    </td>
   <td>
-   <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" title="Items found from home" width="33%">
+   
   </td>   
   </row>
 </table>
-
+<div class="row">
+    <div class="col-md-4">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" title="Items found from home">
+    </div>
+    <div class="col-md-4">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" title="Items found from home">
+    </div>
+    <div class="col-md-4">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" title="Items found from home">
+    </div>
+</div>
 After spending 1-2 days on mechanical work, they came back with a chassis built from plastic bars, two different types of wheels, and a working front axle. The vehicle wasn't very solid, but it was enough for an experimental version. The front axle consisted of two motors: one for moving forward and backward, and another for turning left and right.
 
 Then we tested both axle mechanisms and found that only the front axle was working completely. The rear axle had some mechanical issues, but it was enough to build an "experimental", "simplified" or "simplified" version of the Jeep.
@@ -72,9 +82,9 @@ That was the first virtual sprint we ran.
 
 Some of their notes:
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
-         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="80%" title="Day 1
+         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1
         when I was watching a 
         video I found this
         video about a Remote control
@@ -85,7 +95,7 @@ Some of their notes:
         how to do it after lots of
         work it looked like this"></a>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
     <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2
         So after that we had all set
@@ -100,11 +110,8 @@ Some of their notes:
         day so now the hard
         part was over we had
         to put the programe
-        it to the Node MCU" width="80%"></a>
+        it to the Node MCU" width="100%"></a>
     </div>
-
-</div>
-<div class="row">
         <div  class="col-md-3">
         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="100%">
         </div>
