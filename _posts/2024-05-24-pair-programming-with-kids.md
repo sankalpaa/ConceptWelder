@@ -74,7 +74,7 @@ Some of their notes:
 <div class="row">
     <div class="col-md-4">
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
-         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1
+         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="80%" title="Day 1
         when I was watching a 
         video I found this
         video about a Remote control
@@ -100,21 +100,11 @@ Some of their notes:
         day so now the hard
         part was over we had
         to put the programe
-        it to the Node MCU" width="100%"></a>
+        it to the Node MCU" width="80%"></a>
     </div>
- <div class="col-md-4">
-     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" target="_blank" >
-   <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day3.jpg" title="Day 3" width="100%"></a>
- </div>
+
 </div>
 <div class="row">
-           <div  class="col-md-3">
-           <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" target="_blank" >
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day4.jpg" title="Day 4" width="100%"></a>
-        </div>
-                    <div  class="col-md-3">
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_pin_diagram.jpg" title="Pin diagram" width="100%">
-        </div>
         <div  class="col-md-3">
         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="100%">
         </div>
