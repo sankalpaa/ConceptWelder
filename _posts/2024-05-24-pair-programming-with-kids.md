@@ -14,10 +14,10 @@
             As a dad, I want to teach my kids the things I learned later in life, hoping they get a head start. One day, I decided to introduce my three kids to the world of programming, starting with HTML because I thought it would be easy. To my surprise, only one of them was interested.
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6 align-middle">
+    <div class="d-flex flex-row mb-3">
+        <div class="p-2">
                 I am always inspired by watching Dr. Ruchira Wijerathna's  <a href="https://www.youtube.com/@ScienceWithRuchira">Science With Ruchira</a> YouTube channel. One day, I showed my kids his <a href='https://www.youtube.com/watch?v=T7A0ICf_pa4'>DIY Arduino RC Car</a> video (In Sinhala Language), as they are big fans of vehicles.
-        <div class="col-md-6">
+        <div class="p-2">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/T7A0ICf_pa4?si=fQ-Fly_rihbAxKSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
