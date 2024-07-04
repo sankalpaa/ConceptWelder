@@ -73,7 +73,7 @@ Some of their notes:
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
          <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1">
         </a>
-        'Day 1
+        <p class="fst-italic text-body-secondary">'Day 1
         when I was watching a 
         video I found this
         video about a Remote control
@@ -82,12 +82,14 @@ Some of their notes:
         to make it with my brother
         first he told he will show
         how to do it after lots of
-        work it looked like this'
+        work it looked like this'</p>
     </div>
     <div class="col-md-3">
     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
-    <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2
-        So after that we had all set
+    <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2" width="100%"></a>
+        <p class="fst-italic text-body-secondary">
+        Day 2
+        'So after that we had all set
         not all because we had to
         programe if we didn'
         programe nothing would happen
@@ -99,7 +101,8 @@ Some of their notes:
         day so now the hard
         part was over we had
         to put the programe
-        it to the Node MCU" width="100%"></a>
+        it to the Node MCU'
+        </p>
     </div>
         <div  class="col-md-3">
         <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="100%">
@@ -108,6 +111,7 @@ Some of their notes:
         <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" title="Pseudo code" width="100%">
         </div>
 </div>
+
 We started the next sprint by preparing other required items. We bought an L298N motor controller and other necessary parts from a nearby electronics shop, and they completed the wiring.
 
 Next, it was pair programming time. We needed to program our vehicle for actions: forward, reverse, turn left, and turn right. Together at one desk, I showed them how to program the vehicle to go forward. Using this function vehicale could go forward to given time.
