@@ -50,10 +50,10 @@ Items found from home:
         <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" width="75%" title="Items found from home">
     </div>
     <div class="col-md-4">
-        <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" width="75%" title="Items found from home">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" height="80%" title="Items found from home">
     </div>
     <div class="col-md-4">
-        <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" width="75%" title="Items found from home">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" height="55%" title="Items found from home">
     </div>
 </div>
 After spending 1-2 days on mechanical work, they came back with a chassis built from plastic bars, two different types of wheels, and a working front axle. The vehicle wasn't very solid, but it was enough for an experimental version. The front axle consisted of two motors: one for moving forward and backward, and another for turning left and right.
@@ -87,9 +87,9 @@ Some of their notes:
     <div class="col-md-3">
     <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
     <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2" width="100%"></a>
-        <p class="fst-italic text-body-secondary">
-        Day 2
-        'So after that we had all set
+        <p class="fst-italic">
+        'Day 2
+        So after that we had all set
         not all because we had to
         programe if we didn'
         programe nothing would happen
