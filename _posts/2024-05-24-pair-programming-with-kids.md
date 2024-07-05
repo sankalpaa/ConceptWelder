@@ -56,6 +56,8 @@ This phase's milestone is to have something controlled by an Arduino board.
 
 To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested ordering differentials and other required parts for the Jeep online, even though it might take some time for them to be delivered. 
 But the kids said, "No, we have a differential from an old toy. We can build the chassis ourselves," the brothers insisted.
+
+
 <div class="row body-image-row">
     <div class="col-md-12 body-image-title">Items found from home</div>
 </div>
@@ -157,7 +159,9 @@ As all the vehicle's actions were handled by a single function, I thought it was
 
 And also that marked the completion of the first step, the 'Experimental Jeep Version,' of this project.
 
-My initial plan was to build a webpage to control the vehicle. However, when I mentioned this, their faces didn't look enthusiastic. They had already watched some videos and had ideas about other solutions. They said, "We saw something called B_ly_nk. Can't we use that?" 
+My initial plan was to build a webpage to control the vehicle. However, when I mentioned this, their faces didn't look enthusiastic. They had already watched some videos and had ideas about other solutions. They said, 
+
+"We saw something called B_ly_nk. Can't we use that?" 
 After thinking for a moment, I realized they were right. They were eager to control their vehicle remotely, and building a webpage might be too complicated, potentially causing them to lose interest in the project. 
 
 So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
@@ -170,7 +174,7 @@ We started debugging by first checking the wiring to ensure there were no issues
 
 We corrected the code, and finally, it worked. I still remember their faces after successfully owning their own built remote-controlled 'Jeep.'
 
-
+<br/>
 <div class="row body-image-row">
     <div class="col-md-12 body-image-title">Some captures</div>
 </div>
