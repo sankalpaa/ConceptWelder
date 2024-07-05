@@ -70,6 +70,8 @@ But the kids said, "No, we have a differential from an old toy. We can build the
         <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" height="55%" title="Items found from home">
     </div>
 </div>
+
+
 After spending 1-2 days on mechanical work, they came back with a chassis built from plastic bars, two different types of wheels, and a working front axle. The vehicle wasn't very solid, but it was enough for an experimental version. The front axle consisted of two motors: one for moving forward and backward, and another for turning left and right.
 
 Then we tested both axle mechanisms and found that only the front axle was working completely. The rear axle had some mechanical issues, but it was enough to build an "experimental", "simplified" or "simplified" version of the Jeep.
@@ -80,6 +82,7 @@ Next, we got started with the Arduino IDE and try to understand simple code. We 
  
 Taking it one step further, we planned our real code. I asked them to write some pseudocode for the program. The elder brother had already learned this in school, and what they wrote was acceptable.
 That was the first virtual sprint we ran.
+
 
 <div class="row body-image-row">
     <div class="col-md-12 body-image-title">Some of their notes</div>
@@ -142,6 +145,7 @@ That was the first virtual sprint we ran.
         </div>
 </div>
 
+
 We started the next sprint by preparing other required items. We bought an L298N motor controller and other necessary parts from a nearby electronics shop, and they completed the wiring.
 
 Next, it was pair programming time. We needed to program our vehicle for actions: forward, reverse, turn left, and turn right. Together at one desk, I showed them how to program the vehicle to go forward. Using this function vehicale could go forward to given time.
@@ -166,23 +170,33 @@ We started debugging by first checking the wiring to ensure there were no issues
 
 We corrected the code, and finally, it worked. I still remember their faces after successfully owning their own built remote-controlled 'Jeep.'
 
+
 <div class="row body-image-row">
     <div class="col-md-12 body-image-title">Some captures</div>
 </div>
 <div class="row body-image-row">
     <div class="col-md-4">
          <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg" title="Completed front view">
-        <span class="body-quated-text">Completed front view</span>
     </div>
     <div class="col-md-4">
         <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg" width="75%" title="Completed top view">
-        <span class="body-quated-text">Completed top view</span>
     </div>
     <div class="col-md-4">
         <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg" width="75%" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
+    </div>
+</div>
+<div class="row body-image-row">
+    <div class="col-md-4">
+        <span class="body-quated-text">Completed front view</span>
+    </div>
+    <div class="col-md-4">
+        <span class="body-quated-text">Completed top view</span>
+    </div>
+    <div class="col-md-4">
         <span class="body-quated-text">NodeMcu V3 Lua CP2102 ESP8266 Development Board</span>
     </div>
 </div>
+
 
 I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
 
