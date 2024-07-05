@@ -1,7 +1,6 @@
 <div class="row">
-    <div class="col-md-12">
-        <img src="{{site.baseurl}}/assets/2024-05-24/page_banner.jpg" title="Pair-programming with Kids" width="25%"
-            style="margin-left:30%">
+    <div class="col-md-6 header-banner">
+        <img src="{{site.baseurl}}/assets/2024-05-24/page_banner.jpg" title="Pair-programming with Kids" width="25%">
     </div>
 </div>
     
