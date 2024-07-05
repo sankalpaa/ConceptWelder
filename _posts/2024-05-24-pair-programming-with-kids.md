@@ -82,6 +82,21 @@ That was the first virtual sprint we ran.
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
          <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1">
         </a>
+    </div>
+    <div class="col-md-3">
+    <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
+    <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2" width="100%">
+    </a>
+    </div>
+        <div  class="col-md-3">
+        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="100%">
+        </div>
+        <div  class="col-md-3">
+        <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" title="Pseudo code" width="100%">
+        </div>
+</div>
+<div class="row body-image-row">
+    <div class="col-md-3">
         <span class="body-quated-text">'
         Day 1
         when I was watching a 
@@ -96,9 +111,6 @@ That was the first virtual sprint we ran.
         </span>
     </div>
     <div class="col-md-3">
-    <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
-    <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2" width="100%">
-    </a>
         <span class="body-quated-text">
         'Day 2
         So after that we had all set
@@ -116,12 +128,10 @@ That was the first virtual sprint we ran.
         it to the Node MCU'</span>
     </div>
         <div  class="col-md-3">
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="100%">
              <span class="body-quated-text">Some sketch</span>
         </div>
         <div  class="col-md-3">
-        <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" title="Pseudo code" width="100%">
-                 <span class="body-quated-text">Pseudo code</span>
+            <span class="body-quated-text">Pseudo code</span>
         </div>
 </div>
 
