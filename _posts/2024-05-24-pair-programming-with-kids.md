@@ -173,6 +173,10 @@ We started debugging by first checking the wiring to ensure there were no issues
 
 We corrected the code, and finally, it worked. I still remember their faces after successfully owning their own built remote-controlled 'Jeep.'
 
+I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
+
+Till we meet again, happy pair programming!
+
 <br/>
 <div class="row body-image-row">
     <div class="col-md-12 body-image-title">Some captures</div>
@@ -200,7 +204,3 @@ We corrected the code, and finally, it worked. I still remember their faces afte
     </div>
 </div>
 
-
-I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
-
-Till we meet again, happy pair programming!
