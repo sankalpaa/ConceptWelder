@@ -49,9 +49,10 @@ This phase's milestone is to have something controlled by an Arduino board.
 
 To start the project, we checked what we had on hand. We had only one NodeMCU board and a laptop. I suggested ordering differentials and other required parts for the Jeep online, even though it might take some time for them to be delivered. 
 But the kids said, "No, we have a differential from an old toy. We can build the chassis ourselves," the brothers insisted.
-
-Items found from home:
-<div class="row">
+<div class="row body-image-row">
+    <div class="col-md-12 body-image-title">Items found from home</div>
+</div>
+<div class="row body-image-row">
     <div class="col-md-4">
         <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" width="75%" title="Items found from home">
     </div>
@@ -73,8 +74,10 @@ Next, we got started with the Arduino IDE and try to understand simple code. We 
 Taking it one step further, we planned our real code. I asked them to write some pseudocode for the program. The elder brother had already learned this in school, and what they wrote was acceptable.
 That was the first virtual sprint we ran.
 
-Some of their notes:
-<div class="row">
+<div class="row body-image-row">
+    <div class="col-md-12 body-image-title">Some of their notes</div>
+</div>
+<div class="row body-image-row">
     <div class="col-md-3">
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
          <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1">
@@ -146,7 +149,10 @@ We started debugging by first checking the wiring to ensure there were no issues
 
 We corrected the code, and finally, it worked. I still remember their faces after successfully owning their own built remote-controlled 'Jeep.'
 
-<div class="row">
+<div class="row body-image-row">
+    <div class="col-md-12 body-image-title">Some captures</div>
+</div>
+<div class="row body-image-row">
     <div class="col-md-4">
          <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg" title="Completed front view">
         <span class="body-quated-text">Completed front view</span>
