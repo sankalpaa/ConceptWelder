@@ -169,20 +169,20 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
     <div class="row body-image-row">
         <div class="col-md-12 body-image-title">Some of their notes <I>(in their own words)</I></div>
     </div>
-    <div class="row body-image-row">
-        <div class="col-md-4">
+    <div class="row body-image-container">
+<!--         <div class="col-md-4"> -->
             <a href="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" target="_blank" >
-             <img src="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" width="70%" title="Day 1">
+             <img src="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" class="body-image" title="Day 1">
             </a>
-        </div>
-        <div class="col-md-4">
+<!--         </div>
+        <div class="col-md-4"> -->
         <a href="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" target="_blank" >
-        <img src="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" title="Day 2" width="70%">
+        <img src="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" class="body-image" title="Day 2">
         </a>
-        </div>
-            <div  class="col-md-4">
-            <img src="{{site.baseurl}}/assets/2024-05-24/age13-sketch.PNG" title="Items Sketch" width="70%">
-            </div>
+<!--         </div>
+            <div  class="col-md-4"> -->
+            <img src="{{site.baseurl}}/assets/2024-05-24/age13-sketch.PNG" class="body-image" title="Items Sketch">
+<!--             </div> -->
     </div>
     <div class="row body-image-row">
         <div class="col-md-4">
