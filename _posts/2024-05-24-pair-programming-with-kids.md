@@ -91,12 +91,12 @@ That was the first virtual sprint we ran.
     <div class="row body-image-container">
 <!--         <div class="col-md-3"> -->
             <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
-             <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" class="body-image"title="Day 1">
+             <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" class="body-image" width="50%" title="Day 1">
             </a>
 <!--         </div>
         <div class="col-md-3"> -->
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" class="body-image" title="Day 2">
+        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" class="body-image" width="50%" title="Day 2">
         </a>
 <!--         </div>
             <div  class="col-md-3"> -->
