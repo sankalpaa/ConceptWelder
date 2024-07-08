@@ -88,23 +88,23 @@ That was the first virtual sprint we ran.
     <div class="row body-image-row">
         <div class="col-md-12 body-image-title">Some of their notes <I>(in their own words)</I></div>
     </div>
-    <div class="row body-image-row">
-        <div class="col-md-3">
+    <div class="row body-image-container">
+<!--         <div class="col-md-3"> -->
             <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
-             <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" width="100%" title="Day 1">
+             <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" class="body-image"title="Day 1">
             </a>
-        </div>
-        <div class="col-md-3">
+<!--         </div>
+        <div class="col-md-3"> -->
         <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" title="Day 2" width="100%">
+        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" class="body-image" title="Day 2">
         </a>
-        </div>
-            <div  class="col-md-3">
-            <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" title="Items Sketch" width="100%">
-            </div>
-            <div  class="col-md-3">
-            <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" title="Pseudo code" width="100%">
-            </div>
+<!--         </div>
+            <div  class="col-md-3"> -->
+            <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" class="body-image" title="Items Sketch">
+<!--             </div>
+            <div  class="col-md-3"> -->
+            <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" class="body-image" title="Pseudo code">
+<!--             </div> -->
     </div>
     <div class="row body-image-row">
         <div class="col-md-3">
