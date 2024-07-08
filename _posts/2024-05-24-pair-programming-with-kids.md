@@ -86,7 +86,7 @@ That was the first virtual sprint we ran.
 
 
 <div class="row body-image-row">
-    <div class="col-md-12 body-image-title">Some of their notes</div>
+    <div class="col-md-12 body-image-title">Some of their notes <I>(in their own words)</I></div>
 </div>
 <div class="row body-image-row">
     <div class="col-md-3">
@@ -164,6 +164,45 @@ My initial plan was to build a webpage to control the vehicle. However, when I m
 After thinking for a moment, I realized they were right. They were eager to control their vehicle remotely, and building a webpage might be too complicated, potentially causing them to lose interest in the project. 
 
 So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
+
+
+<div class="row body-image-row">
+    <div class="col-md-12 body-image-title">Some of their notes <I>(in their own words)</I></div>
+</div>
+<div class="row body-image-row">
+    <div class="col-md-4">
+        <a href="{{site.baseurl}}/assets/2024-05-24/age13_day1.jpg" target="_blank" >
+         <img src="{{site.baseurl}}/assets/2024-05-24/age13_day1.jpg" width="100%" title="Day 1">
+        </a>
+    </div>
+    <div class="col-md-4">
+    <a href="{{site.baseurl}}/assets/2024-05-24/age13_day2.jpg" target="_blank" >
+    <img src="{{site.baseurl}}/assets/2024-05-24/age13_day2.jpg" title="Day 2" width="100%">
+    </a>
+    </div>
+        <div  class="col-md-4">
+        <img src="{{site.baseurl}}/assets/2024-05-24/age13_sketch.jpg" title="Items Sketch" width="100%">
+        </div>
+</div>
+<div class="row body-image-row">
+    <div class="col-md-4">
+        <span class="body-quated-text">'
+        Day 1
+        I found some pices and puted It to gathed and end of day I tryed three types of metila and It was like this
+        </span>
+    </div>
+    <div class="col-md-4">
+        <span class="body-quated-text">
+        'Day 2
+            found out what to bring from the shop and went to the shop and setup them to together and made the cirtes and foude out a box to put the cirtes and set it in the jeep now
+        '</span>
+    </div>
+        <div  class="col-md-4">
+             <span class="body-quated-text">Some sketch</span>
+        </div>
+</div>
+
+
 
 Blynk is easy to understand and less complicated for them. We installed the required library, downloaded the mobile app, and modified the code to support it. First, we tested it with only the forward action. The code compiled but failed to upload to the module. After trying a few more times with the same result, we discovered the issue was with the board and the same problem occurred with other similar boards. We found that we were using CH340 boards, which are less reliable than CP2102 boards. We had to wait about 5-6 days until the new CP2102 board arrived 
 
