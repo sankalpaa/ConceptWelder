@@ -178,7 +178,7 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
                 found out what to bring from the shop and went to the shop and setup them to together and made the cirtes and foude out a box to put the cirtes and set it in the jeep now'
             </span>
         </div>
-        <div class="col-3 col-md-">
+        <div class="col-3 col-md-3">
             <a href="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" target="_blank" >
                 <img src="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" class="body-image" title="Day 4 and 5">
             </a>
