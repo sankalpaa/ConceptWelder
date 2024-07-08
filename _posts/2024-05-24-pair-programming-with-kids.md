@@ -60,15 +60,15 @@ But the kids said, "No, we have a differential from an old toy. We can build the
     <div class="row body-image-row">
         <div class="col-md-12 body-image-title">Items found from home</div>
     </div>
-    <div class="row body-image-row">
+    <div class="row body-image-container">
 <!--         <div class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" title="Items found from home">
+            <img src="{{site.baseurl}}/assets/2024-05-24/Items%20in%20hand.jpg" class="body-image" title="Items found from home">
 <!--         </div>
         <div class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" title="Items found from home">
+            <img src="{{site.baseurl}}/assets/2024-05-24/Front%20axle.jpg" class="body-image" title="Items found from home">
 <!--         </div>
         <div class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" title="Items found from home">
+            <img src="{{site.baseurl}}/assets/2024-05-24/Rear%20axle%202.jpg" class="body-image" title="Items found from home">
 <!--         </div> -->
     </div>
 </div>
