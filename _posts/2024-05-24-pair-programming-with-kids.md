@@ -222,16 +222,16 @@ Happy pair programming!
     <div class="row body-image-row">
         <div class="col-md-12 body-image-title">Some captures</div>
     </div>
-    <div class="row body-image-row">
-        <div class="col-md-4">
-             <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg" title="Completed front view">
-        </div>
-        <div class="col-md-4">
-            <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg" width="75%" title="Completed top view">
-        </div>
-        <div class="col-md-4">
-            <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg" width="75%" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
-        </div>
+    <div class="row body-image-container">
+<!--         <div class="col-md-4"> -->
+             <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg"  class="body-image" title="Completed front view">
+<!--         </div>
+        <div class="col-md-4"> -->
+            <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg"  class="body-image" title="Completed top view">
+<!--         </div>
+        <div class="col-md-4"> -->
+            <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg"  class="body-image" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
+<!--         </div> -->
     </div>
     <div class="row body-image-row">
         <div class="col-md-4">
