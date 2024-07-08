@@ -171,17 +171,17 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
 </div>
 <div class="row body-image-row">
     <div class="col-md-4">
-        <a href="{{site.baseurl}}/assets/2024-05-24/age13_day1.PNG" target="_blank" >
-         <img src="{{site.baseurl}}/assets/2024-05-24/age13_day1.PNG" width="100%" title="Day 1">
+        <a href="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" target="_blank" >
+         <img src="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" width="100%" title="Day 1">
         </a>
     </div>
     <div class="col-md-4">
-    <a href="{{site.baseurl}}/assets/2024-05-24/age13_day2.PNG" target="_blank" >
-    <img src="{{site.baseurl}}/assets/2024-05-24/age13_day2.PNG" title="Day 2" width="100%">
+    <a href="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" target="_blank" >
+    <img src="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" title="Day 2" width="100%">
     </a>
     </div>
         <div  class="col-md-4">
-        <img src="{{site.baseurl}}/assets/2024-05-24/age13_sketch.PNG" title="Items Sketch" width="100%">
+        <img src="{{site.baseurl}}/assets/2024-05-24/age13-sketch.PNG" title="Items Sketch" width="100%">
         </div>
 </div>
 <div class="row body-image-row">
