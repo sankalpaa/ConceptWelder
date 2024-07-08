@@ -215,15 +215,15 @@ Happy pair programming!
         <div class="col-md-12 body-image-title">Some captures</div>
     </div>
     <div class="row body-image-container">
-        <div class="col-md-4 col-md-4">
+        <div class="col-4 col-md-4">
              <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg"  class="body-image" title="Completed front view">
               <span class="body-quated-text">Completed front view</span>
         </div>
-        <div class="col-md-4 col-md-4">
+        <div class="col-4 col-md-4">
             <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg"  class="body-image" title="Completed top view">
             <span class="body-quated-text">Completed top view</span>
         </div>
-        <div class="col-md-4 col-md-4">
+        <div class="col-4 col-md-4">
             <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg"  class="body-image" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
             <span class="body-quated-text">NodeMcu V3 Lua CP2102 ESP8266 Development Board</span>
         </div>
