@@ -11,7 +11,7 @@ As a dad, I want to teach my kids the things I learned later in life, hoping the
 I am always inspired by watching Dr. Ruchira Wijerathna's  ['Science With Ruchira'](https://www.youtube.com/@ScienceWithRuchira) YouTube channel. One day, I showed my kids his ['DIY Arduino RC Car'](https://www.youtube.com/watch?v=T7A0ICf_pa4) video (In Sinhala Language), as they are big fans of vehicles. 
 
 <div class="row">
-    <div class="col-md-6 body-video">
+    <div class="col-md-12 body-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/T7A0ICf_pa4?si=fQ-Fly_rihbAxKSs"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
