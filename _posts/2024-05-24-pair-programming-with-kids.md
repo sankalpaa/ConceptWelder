@@ -188,28 +188,28 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
 <!--             </div> -->
     </div>
     <div class="row body-image-row">
-        <div class="col-md-4">
+<!--         <div class="col-md-3"> -->
             <span class="body-quated-text">'
             Day 1
             I found some pices and puted It to gathed and end of day I tryed three types of metila and It was like this
             </span>
-        </div>
-        <div class="col-md-4">
+<!--         </div>
+        <div class="col-md-3"> -->
             <span class="body-quated-text">
             'Day 2
                 found out what to bring from the shop and went to the shop and setup them to together and made the cirtes and foude out a box to put the cirtes and set it in the jeep now
             '</span>
-        </div>
-                    <div  class="col-md-4">
+<!--         </div>
+                    <div  class="col-md-3"> -->
                  <span class="body-quated-text">'day 4
                 I have being forgat are about the Jeep and my father remind me.
                 day 5
                      I checked out the old program and I did some modeficaion and we need to make the remot in the "Blenk" app and my e-mail Password is not working we stop of the day
                 '</span>
-            </div>
-            <div  class="col-md-4">
+<!--             </div>
+            <div  class="col-md-4"> -->
                  <span class="body-quated-text">Some sketch</span>
-            </div>
+<!--             </div> -->
     </div>
 </div>
 
