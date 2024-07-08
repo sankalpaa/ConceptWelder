@@ -170,46 +170,36 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
         <div class="col-md-12 body-image-title">Some of their notes <I>(in their own words)</I></div>
     </div>
     <div class="row body-image-container">
-<!--         <div class="col-md-4"> -->
+        <div>
             <a href="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" target="_blank" >
-             <img src="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" class="body-image" title="Day 1">
+                 <img src="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" class="body-image" title="Day 1">
             </a>
-<!--         </div>
-        <div class="col-md-4"> -->
-        <a href="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" target="_blank" >
-        <img src="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" class="body-image" title="Day 2">
-        </a>
-        <a href="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" target="_blank" >
-        <img src="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" class="body-image" title="Day 4 and 5">
-        </a>
-<!--         </div>
-            <div  class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2024-05-24/age13-sketch.PNG" class="body-image" title="Items Sketch">
-<!--             </div> -->
-    </div>
-    <div class="row body-image-row">
-<!--         <div class="col-md-3"> -->
-            <span class="body-quated-text">'
+                                        <span class="body-quated-text">'
             Day 1
             I found some pices and puted It to gathed and end of day I tryed three types of metila and It was like this
             </span>
-<!--         </div>
-        <div class="col-md-3"> -->
-            <span class="body-quated-text">
+        </div>
+        <div>
+            <a href="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" target="_blank" >
+                <img src="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" class="body-image" title="Day 2">
+            </a>
+                        <span class="body-quated-text">
             'Day 2
                 found out what to bring from the shop and went to the shop and setup them to together and made the cirtes and foude out a box to put the cirtes and set it in the jeep now
             '</span>
-<!--         </div>
-                    <div  class="col-md-3"> -->
-                 <span class="body-quated-text">'day 4
+        <a href="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" target="_blank" >
+            <img src="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" class="body-image" title="Day 4 and 5">
+        </a>
+                             <span class="body-quated-text">'day 4
                 I have being forgat are about the Jeep and my father remind me.
                 day 5
                      I checked out the old program and I did some modeficaion and we need to make the remot in the "Blenk" app and my e-mail Password is not working we stop of the day
                 '</span>
-<!--             </div>
-            <div  class="col-md-4"> -->
-                 <span class="body-quated-text">Some sketch</span>
-<!--             </div> -->
+        </div>
+        <div>
+            <img src="{{site.baseurl}}/assets/2024-05-24/age13-sketch.PNG" class="body-image" title="Items Sketch">
+            <span class="body-quated-text">Some sketch</span>
+        </div>
     </div>
 </div>
 
