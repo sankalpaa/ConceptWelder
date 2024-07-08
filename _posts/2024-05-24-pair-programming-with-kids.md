@@ -187,6 +187,7 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
             'Day 2
                 found out what to bring from the shop and went to the shop and setup them to together and made the cirtes and foude out a box to put the cirtes and set it in the jeep now'
             </span>
+        </div>
         <div>
             <a href="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" target="_blank" >
                 <img src="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" class="body-image" title="Day 4 and 5">
@@ -204,7 +205,6 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
         </div>
     </div>
 </div>
-
 
 Blynk is easy to understand and less complicated for them. We installed the required library, downloaded the mobile app, and modified the code to support it. First, we tested it with only the forward action. The code compiled but failed to upload to the module. After trying a few more times with the same result, we discovered the issue was with the board and the same problem occurred with other similar boards. We found that we were using CH340 boards, which are less reliable than CP2102 boards. We had to wait about 5-6 days until the new CP2102 board arrived 
 
