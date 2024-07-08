@@ -89,26 +89,11 @@ That was the first virtual sprint we ran.
         <div class="col-md-12 body-image-title">Some of their notes <I>(in their own words)</I></div>
     </div>
     <div class="row body-image-container">
-<!--         <div class="col-md-3"> -->
-            <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
-             <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" class="body-image" title="Day 1">
-            </a>
-<!--         </div>
-        <div class="col-md-3"> -->
-        <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
-        <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" class="body-image" title="Day 2">
-        </a>
-<!--         </div>
-            <div  class="col-md-3"> -->
-            <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" class="body-image" title="Items Sketch">
-<!--             </div>
-            <div  class="col-md-3"> -->
-            <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" class="body-image" title="Pseudo code">
-<!--             </div> -->
-    </div>
-    <div class="row body-image-row">
         <div class="col-md-3">
-            <span class="body-quated-text">'
+            <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" target="_blank" >
+                <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day1.jpg" class="body-image" title="Day 1">
+            </a>
+                        <span class="body-quated-text">'
             Day 1
             when I was watching a 
             video I found this
@@ -122,7 +107,10 @@ That was the first virtual sprint we ran.
             </span>
         </div>
         <div class="col-md-3">
-            <span class="body-quated-text">
+            <a href="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" target="_blank" >
+                <img src="{{site.baseurl}}/assets/2024-05-24/age_8_day2.jpg" class="body-image" title="Day 2">
+            </a>
+                        <span class="body-quated-text">
             'Day 2
             So after that we had all set
             not all because we had to
@@ -138,12 +126,14 @@ That was the first virtual sprint we ran.
             to put the programe
             it to the Node MCU'</span>
         </div>
-            <div  class="col-md-3">
-                 <span class="body-quated-text">Some sketch</span>
-            </div>
-            <div  class="col-md-3">
-                <span class="body-quated-text">Pseudo code</span>
-            </div>
+        <div  class="col-md-3">
+            <img src="{{site.baseurl}}/assets/2024-05-24/age_8_sketch.jpg" class="body-image" title="Items Sketch">
+            <span class="body-quated-text">Some sketch</span>
+        </div>
+        <div  class="col-md-3">
+            <img src="{{site.baseurl}}/assets/2024-05-24/Pseudo%20code.jpg" class="body-image" title="Pseudo code">
+            <span class="body-quated-text">Pseudo code</span>
+        </div>
     </div>
 </div>
 
@@ -170,7 +160,7 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
         <div class="col-md-12 body-image-title">Some of their notes <I>(in their own words)</I></div>
     </div>
     <div class="row body-image-container">
-        <div class="col-4 col-md-4">
+        <div class="col-3 col-md-3">
             <a href="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" target="_blank" >
                  <img src="{{site.baseurl}}/assets/2024-05-24/age13-day1.PNG" class="body-image" title="Day 1">
             </a>
@@ -179,7 +169,7 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
             I found some pices and puted It to gathed and end of day I tryed three types of metila and It was like this
             </span>
         </div>
-        <div class="col-4 col-md-4">
+        <div class="col-3 col-md-3">
             <a href="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" target="_blank" >
                 <img src="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" class="body-image" title="Day 2">
             </a>
@@ -188,7 +178,7 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
                 found out what to bring from the shop and went to the shop and setup them to together and made the cirtes and foude out a box to put the cirtes and set it in the jeep now'
             </span>
         </div>
-        <div class="col-4 col-md-4">
+        <div class="col-3 col-md-">
             <a href="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" target="_blank" >
                 <img src="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" class="body-image" title="Day 4 and 5">
             </a>
@@ -199,7 +189,7 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
                 I checked out the old program and I did some modeficaion and we need to make the remot in the "Blenk" app and my e-mail Password is not working we stop of the day'
                 </span>
         </div>
-        <div class="col-4 col-md-4">
+        <div class="col-3 col-md-3">
             <img src="{{site.baseurl}}/assets/2024-05-24/age13-sketch.PNG" class="body-image" title="Items Sketch">
             <span class="body-quated-text">Some sketch</span>
         </div>
@@ -225,24 +215,16 @@ Happy pair programming!
         <div class="col-md-12 body-image-title">Some captures</div>
     </div>
     <div class="row body-image-container">
-<!--         <div class="col-md-4"> -->
+        <div class="col-md-4 col-md-4">
              <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20Front%20view.jpg"  class="body-image" title="Completed front view">
-<!--         </div>
-        <div class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg"  class="body-image" title="Completed top view">
-<!--         </div>
-        <div class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg"  class="body-image" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
-<!--         </div> -->
-    </div>
-    <div class="row body-image-row">
-        <div class="col-md-4">
-            <span class="body-quated-text">Completed front view</span>
+              <span class="body-quated-text">Completed front view</span>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-md-4">
+            <img src="{{site.baseurl}}/assets/2024-05-24/Completed%20top%20view.jpg"  class="body-image" title="Completed top view">
             <span class="body-quated-text">Completed top view</span>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-md-4">
+            <img src="{{site.baseurl}}/assets/2024-05-24/CP2102%20ESP8266%20board.jpg"  class="body-image" title="NodeMcu V3 Lua CP2102 ESP8266 Development Board">
             <span class="body-quated-text">NodeMcu V3 Lua CP2102 ESP8266 Development Board</span>
         </div>
     </div>
