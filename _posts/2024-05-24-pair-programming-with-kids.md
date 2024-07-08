@@ -179,6 +179,9 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
         <a href="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" target="_blank" >
         <img src="{{site.baseurl}}/assets/2024-05-24/age13-day2.PNG" class="body-image" title="Day 2">
         </a>
+        <a href="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" target="_blank" >
+        <img src="{{site.baseurl}}/assets/2024-05-24/age13-day4-5.PNG" class="body-image" title="Day 4 and 5">
+        </a>
 <!--         </div>
             <div  class="col-md-4"> -->
             <img src="{{site.baseurl}}/assets/2024-05-24/age13-sketch.PNG" class="body-image" title="Items Sketch">
@@ -197,6 +200,13 @@ So, I said, "Yes, let's use ['Blink'](https://blynk.io/)
                 found out what to bring from the shop and went to the shop and setup them to together and made the cirtes and foude out a box to put the cirtes and set it in the jeep now
             '</span>
         </div>
+                    <div  class="col-md-4">
+                 <span class="body-quated-text">'day 4
+                I have being forgat are about the Jeep and my father remind me.
+                day 5
+                     I checked out the old program and I did some modeficaion and we need to make the remot in the "Blenk" app and my e-mail Password is not working we stop of the day
+                '</span>
+            </div>
             <div  class="col-md-4">
                  <span class="body-quated-text">Some sketch</span>
             </div>
