@@ -214,15 +214,17 @@ Happy pair programming!
 [https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino](https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino).
 
 <b>Some Actions: </b>
-<iframe
- width="720"
- height="576"
- src="https://youtube.com/shorts/umMYPwywCIE?si=hHtY608DiIfG0ED7"
- title="Concept welder jeep in action"
- frameborder="0"
- allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
- allowfullscreen>
-</iframe>
+<div class="row body-image-wrapper">
+    <div class="col-md-12 body-video">
+                <iframe          width="720"
+         height="576"
+                    src="https://youtube.com/shorts/umMYPwywCIE?si=hHtY608DiIfG0ED7"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
 
 
 ### "When the pupil is ready the teacher appears."
