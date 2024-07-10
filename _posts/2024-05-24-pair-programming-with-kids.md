@@ -230,25 +230,25 @@ Happy pair programming!
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>12 Year <span>&#128102;</span>
+      <td> Happy 12 Year old <span>&#128102;</span>
       </td>
       <td>Pair-Programmer, Team Lead</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>8 Year <span>&#128102;</span>
+      <td> Happy 8 Year old <span>&#128102;</span>
       </td>
       <td>Pair-Programmer, Cheerleader</td>
     </tr>
         <tr>
       <th scope="row">3</th>
-      <td>6 Year  <span>&#128103;</span>
+      <td> Happy 6 Year old <span>&#128103;</span>
       </td>
       <td>Quality Assurance, Cheerleader</td>
     </tr>
         <tr>
       <th scope="row">4</th>
-      <td>Me <span>&#129492;</span>
+      <td> Happy Me <span>&#129492;</span>
       </td>
       <td>Pair-Programmer </td>
     </tr>
