@@ -221,13 +221,17 @@ Happy pair programming!
 
 | Name  | Role |
 | ------------- | ------------- |
-| Me  | Pair-Programmer  |
-| 12 Year  | Pair-Programmer, Team Lead  |
-| 8 Year  | Pair-Programmer, Cheerleader  |
+| Me <span>&#129492;</span> | Pair-Programmer  |
+| 12 Year <span>&#128102;</span> | Pair-Programmer, Team Lead  |
+| 8 Year <span>&#128102;</span> | Pair-Programmer, Cheerleader  |
 | 6 Year  <span>&#128103;</span> | Quality Assurance, Cheerleader  |
 
+<div class="body-image-wrapper">
+    <div class="row body-image-row">
+        <div class="col-md-12 body-image-title">Some Actions</div>
+    </div>
+</div>
 
-<b>Some Actions: </b>
 <div class="row body-image-wrapper">
     <div class="col-md-12 body-video">
                 <iframe          width="720"
@@ -238,8 +242,6 @@ Happy pair programming!
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
-
-### "When the pupil is ready the teacher appears."
 
 <div class="body-image-wrapper">
     <div class="row body-image-row">
@@ -260,3 +262,5 @@ Happy pair programming!
         </div>
     </div>
 </div>
+
+### "When the pupil is ready the teacher appears."
