@@ -217,6 +217,7 @@ Happy pair programming!
     <div class="row body-image-row">
         <div class="col-md-12 body-image-title">Our Team</div>
     </div>
+</div>
     <div class="row body-image-row">
         <div class="col-md-6">
             <div class="col-md-12 body-image-title">Name
@@ -229,17 +230,12 @@ Happy pair programming!
      </div>
     <div class="row body-image-container">
         <div class="col-md-6">
-            <span class="body-quated-text">
                 Me
-            </span>
         </div>
         <div class="col-md-6">
-            <span class="body-quated-text">
                 Pair-Programmer
-            </span>
         </div>
     </div>
-</div>
 
 <b>Some Actions: </b>
 <div class="row body-image-wrapper">
