@@ -210,8 +210,20 @@ I am going to stop here with the end of the Basic Jeep version. The simplified a
 
 Happy pair programming!
 
-<b>What we pair-programmed.</b>
-<b><a href="https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino">https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino</a></b>
+<b>What we pair-programmed: </b>
+([https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino](https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino).
+
+<b>Some Actions: </b>
+<iframe
+ width="720"
+ height="576"
+ src="{{'https://youtube.com/shorts/umMYPwywCIE' . $video}}"
+ title="Concept welder jeep in action"
+ frameborder="0"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+ allowfullscreen>
+</iframe>
+
 
 ### "When the pupil is ready the teacher appears."
 
