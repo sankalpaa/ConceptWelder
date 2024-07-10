@@ -208,8 +208,11 @@ We corrected the code, and finally, it worked. I still remember their faces afte
 
 I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
 
-When the pupil is ready the teacher appears.
- 
+### "When the pupil is ready the teacher appears."
+
+<b>What we pair-programmed.</b>
+<b>https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino</b>
+
 Happy pair programming!
 
 <div class="body-image-wrapper">
