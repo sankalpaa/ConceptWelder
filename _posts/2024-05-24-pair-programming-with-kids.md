@@ -218,7 +218,7 @@ Happy pair programming!
     <div class="col-md-12 body-video">
                 <iframe          width="720"
          height="576"
-                    src="https://youtube.com/shorts/umMYPwywCIE?si=hHtY608DiIfG0ED7"
+                    src="https://youtube.com/embed/umMYPwywCIE?si=hHtY608DiIfG0ED7"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
