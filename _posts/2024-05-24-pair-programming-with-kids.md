@@ -219,12 +219,41 @@ Happy pair programming!
     </div>
 </div>
 
-| Name  | Role |
-| ------------- | ------------- |
-| Me <span>&#129492;</span> | Pair-Programmer  |
-| 12 Year <span>&#128102;</span> | Pair-Programmer, Team Lead  |
-| 8 Year <span>&#128102;</span> | Pair-Programmer, Cheerleader  |
-| 6 Year  <span>&#128103;</span> | Quality Assurance, Cheerleader  |
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>12 Year <span>&#128102;</span>
+      </td>
+      <td>Pair-Programmer, Team Lead</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>8 Year <span>&#128102;</span>
+      </td>
+      <td>Pair-Programmer, Cheerleader</td>
+    </tr>
+        <tr>
+      <th scope="row">2</th>
+      <td>6 Year  <span>&#128103;</span>
+      </td>
+      <td>Quality Assurance, Cheerleader</td>
+    </tr>
+        <tr>
+      <th scope="row">2</th>
+      <td>Me <span>&#129492;</span>
+      </td>
+      <td>Pair-Programmer </td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="body-image-wrapper">
     <div class="row body-image-row">
