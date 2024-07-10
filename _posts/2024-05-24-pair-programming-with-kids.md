@@ -219,25 +219,13 @@ Happy pair programming!
     </div>
 </div>
 
-<div class="row body-table-row title">
-    <div class="col-md-6">
-        <div class="col-md-12 body-image-title">Name
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="col-md-12 body-image-title">Role
-        </div>
-    </div>
-</div>
+| Name  | Role |
+| ------------- | ------------- |
+| Me  | Pair-Programmer  |
+| 12 Year  | Pair-Programmer, Team Lead  |
+| 8 Year  | Pair-Programmer, Cheerleader  |
+| 6 Year  <span>&#128103;</span> | Quality Assurance, Cheerleader  |
 
-<div class="row body-table-row">
-    <div class="col-md-6">
-            Me
-    </div>
-    <div class="col-md-6">
-            Pair-Programmer
-    </div>
-</div>
 
 <b>Some Actions: </b>
 <div class="row body-image-wrapper">
