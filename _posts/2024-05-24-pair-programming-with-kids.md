@@ -208,12 +208,12 @@ We corrected the code, and finally, it worked. I still remember their faces afte
 
 I am going to stop here with the end of the Basic Jeep version. The simplified and complete version is yet to come.
 
-### "When the pupil is ready the teacher appears."
+Happy pair programming!
 
 <b>What we pair-programmed.</b>
-<b>https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino</b>
+<b><a href="https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino">https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino</a></b>
 
-Happy pair programming!
+### "When the pupil is ready the teacher appears."
 
 <div class="body-image-wrapper">
     <div class="row body-image-row">
