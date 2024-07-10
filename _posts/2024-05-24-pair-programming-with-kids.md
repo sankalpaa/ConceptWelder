@@ -213,6 +213,34 @@ Happy pair programming!
 <b>What we pair-programmed: </b>
 [https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino](https://github.com/sankalpaa/Jeep_source/blob/main/arduino/source.ino).
 
+<div class="body-image-wrapper">
+    <div class="row body-image-row">
+        <div class="col-md-12 body-image-title">Our Team</div>
+    </div>
+    <div class="row body-image-row">
+        <div class="col-md-6">
+            <div class="col-md-12 body-image-title">Name
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-12 body-image-title">Role
+            </div>
+        </div>
+     </div>
+    <div class="row body-image-container">
+        <div class="col-md-6">
+            <span class="body-quated-text">
+                Me
+            </span>
+        </div>
+        <div class="col-md-6">
+            <span class="body-quated-text">
+                Pair-Programmer
+            </span>
+        </div>
+    </div>
+</div>
+
 <b>Some Actions: </b>
 <div class="row body-image-wrapper">
     <div class="col-md-12 body-video">
@@ -224,8 +252,6 @@ Happy pair programming!
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
-
-
 
 ### "When the pupil is ready the teacher appears."
 
