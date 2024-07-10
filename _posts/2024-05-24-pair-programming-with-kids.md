@@ -241,13 +241,13 @@ Happy pair programming!
       <td>Pair-Programmer, Cheerleader</td>
     </tr>
         <tr>
-      <th scope="row">2</th>
+      <th scope="row">3</th>
       <td>6 Year  <span>&#128103;</span>
       </td>
       <td>Quality Assurance, Cheerleader</td>
     </tr>
         <tr>
-      <th scope="row">2</th>
+      <th scope="row">4</th>
       <td>Me <span>&#129492;</span>
       </td>
       <td>Pair-Programmer </td>
