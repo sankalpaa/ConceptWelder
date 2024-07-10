@@ -217,7 +217,7 @@ Happy pair programming!
 <iframe
  width="720"
  height="576"
- src="{{'https://youtube.com/shorts/umMYPwywCIE?si=hHtY608DiIfG0ED7' . $video}}"
+ src="https://youtube.com/shorts/umMYPwywCIE?si=hHtY608DiIfG0ED7"
  title="Concept welder jeep in action"
  frameborder="0"
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
