@@ -218,24 +218,26 @@ Happy pair programming!
         <div class="col-md-12 body-image-title">Our Team</div>
     </div>
 </div>
-    <div class="row body-image-row">
-        <div class="col-md-6">
-            <div class="col-md-12 body-image-title">Name
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="col-md-12 body-image-title">Role
-            </div>
-        </div>
-     </div>
-    <div class="row body-image-container">
-        <div class="col-md-6">
-                Me
-        </div>
-        <div class="col-md-6">
-                Pair-Programmer
+
+<div class="row body-table-row title">
+    <div class="col-md-6">
+        <div class="col-md-12 body-image-title">Name
         </div>
     </div>
+    <div class="col-md-6">
+        <div class="col-md-12 body-image-title">Role
+        </div>
+    </div>
+</div>
+
+<div class="row body-table-row">
+    <div class="col-md-6">
+            Me
+    </div>
+    <div class="col-md-6">
+            Pair-Programmer
+    </div>
+</div>
 
 <b>Some Actions: </b>
 <div class="row body-image-wrapper">
