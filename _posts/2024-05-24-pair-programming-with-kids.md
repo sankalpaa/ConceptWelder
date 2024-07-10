@@ -292,4 +292,4 @@ Happy pair programming!
     </div>
 </div>
 
-### "When the pupil is ready the teacher appears."
+<div class="col-md-12 center-title">"When the pupil is ready the teacher appears."</div>
