@@ -6,8 +6,8 @@ date: 2024-04-24
     <link rel="stylesheet" href="{{site.baseurl}}/assets/2024-04-24/main.css">
 </head>
 <div class="header text-center">
-    <h1>Google Map with Nextjs</h1>
-    <div class="col-md-12 header-banner">
+    <h1 class="map-h1">Google Map with Nextjs</h1>
+    <div class="col-md-12 header-banner-">
         <img src="{{site.baseurl}}/assets/2024-04-24/header-banner.jpg" title="Google Map with Nextjs" width="100%">
     </div>
 </div>
@@ -229,7 +229,7 @@ const setMarkerRef = (marker: Marker | null, key: number) => {
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-Cluster-markers.PNG" />
+                <img class="img" style="max-height: 300px;" src="{{site.baseurl}}/assets/2024-04-24/google-map-Cluster-markers.PNG" />
             </div>
         </div>
     </div>
