@@ -46,14 +46,14 @@ date: 2024-04-24
                 <pre>
 &lt;APIProvider apiKey={googleMapsApiKey}&gt;
 &lt;Map
-defaultCenter={mapCenter}
-defaultZoom={5}
-mapId={googleMapId}
+    defaultCenter={mapCenter}
+    defaultZoom={5}
+    mapId={googleMapId}
 &gt;
-&lt;AdvancedMarker
-position={{ lat: 7.9558296, lng: 80.7572161 }}
-&gt;
-&lt;/AdvancedMarker&gt;
+    &lt;AdvancedMarker
+    position={{ lat: 7.9558296, lng: 80.7572161 }}
+    &gt;
+    &lt;/AdvancedMarker&gt;
 &lt;/Map&gt;
 &lt;/APIProvider&gt;
                 </pre>
@@ -92,10 +92,10 @@ position={{ lat: 7.9558296, lng: 80.7572161 }}
                 <pre>
 places.map((place: Place, key: number) =&gt; (
 &lt;AdvancedMarker
-position={{ lat: place.geoPoint.latitude, lng: place.geoPoint.longitude }}
-key={key}
+    position={{ lat: place.geoPoint.latitude, lng: place.geoPoint.longitude }}
+    key={key}
 &gt;
-&lt;Pin background={'#FF00FF'} borderColor={'#FF00FF'} glyphColor={'#FFFFFF'}&gt;&lt;/Pin&gt;
+    &lt;Pin background={'#FF00FF'} borderColor={'#FF00FF'} glyphColor={'#FFFFFF'}&gt;&lt;/Pin&gt;
 &lt;/AdvancedMarker&gt;
 ))     
                 </pre>
@@ -121,21 +121,21 @@ key={key}
                 <pre>
 places.map((place: Place, key: number) =&gt; (
 &lt;div&gt;
-&lt;AdvancedMarker
-position={{ lat: place.geoPoint.latitude, lng: place.geoPoint.longitude }}
-key={key}
-&gt;
-&lt;Pin background={'#FF00FF'} borderColor={'#FF00FF'} glyphColor={'#FFFFFF'}&gt;&lt;/Pin&gt;
-&lt;/AdvancedMarker&gt;
-&lt;InfoWindow
-position={{ lat: place.geoPoint.latitude, lng: place.geoPoint.longitude }}
-key={key}
-&gt;
-&lt;div&gt;
-    &lt;h4&gt;{place.name}&lt;/h4&gt;
-    &lt;p&gt;{place.intro}&lt;/p&gt;
-&lt;/div&gt;
-&lt;/InfoWindow&gt;
+    &lt;AdvancedMarker
+    position={{ lat: place.geoPoint.latitude, lng: place.geoPoint.longitude }}
+    key={key}
+    &gt;
+    &lt;Pin background={'#FF00FF'} borderColor={'#FF00FF'} glyphColor={'#FFFFFF'}&gt;&lt;/Pin&gt;
+    &lt;/AdvancedMarker&gt;
+    &lt;InfoWindow
+    position={{ lat: place.geoPoint.latitude, lng: place.geoPoint.longitude }}
+    key={key}
+    &gt;
+    &lt;div&gt;
+        &lt;h4&gt;{place.name}&lt;/h4&gt;
+        &lt;p&gt;{place.intro}&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;/InfoWindow&gt;
 &lt;/div&gt;
 ))
                 </pre>
@@ -179,30 +179,30 @@ key={key}
 const clusterer = useRef<MarkerClusterer | null>(null);
 
 useEffect(() => {
-if (!map) return;
-if (!clusterer.current) {
-    clusterer.current = new MarkerClusterer({ map });
-}
+    if (!map) return;
+    if (!clusterer.current) {
+        clusterer.current = new MarkerClusterer({ map });
+    }
 }, [map])
 
 useEffect(() => {
-clusterer.current?.clearMarkers();
-clusterer.current?.addMarkers(Object.values(markers))
+    clusterer.current?.clearMarkers();
+    clusterer.current?.addMarkers(Object.values(markers))
 }, [markers])
 
 const setMarkerRef = (marker: Marker | null, key: number) => {
-if (marker && markers[key]) return;
-if (!marker && !markers[key]) return;
+    if (marker && markers[key]) return;
+    if (!marker && !markers[key]) return;
 
-setMarkers((prev) => {
-    if (marker) {
-        return { ...prev, [key]: marker };
-    } else {
-        const newMarker = { ...prev };
-        delete newMarker[key];
-        return newMarker;
-    }
-});
+    setMarkers((prev) => {
+        if (marker) {
+            return { ...prev, [key]: marker };
+        } else {
+            const newMarker = { ...prev };
+            delete newMarker[key];
+            return newMarker;
+        }
+    });
 }
                 </pre>
                 <p><a
@@ -292,25 +292,25 @@ placeholder="Enter postcode, suburb or locator name"
                 <pre>
 const zoomToLocation = (location: LatLngLiteral) => {
 if (map) {
-map.setCenter({
-    lat: location.lat,
-    lng: location.lng,
-})
-map.setZoom(10);
+    map.setCenter({
+        lat: location.lat,
+        lng: location.lng,
+    })
+    map.setZoom(10);
 }
 }
 
 const onPlaceChangedEvent = () => {
 if (searchResult) {
-const place = searchResult.getPlace();
-if (place?.geometry?.location) {
-    const placeLat = place.geometry?.location?.lat()
-    const placeLng = place.geometry?.location?.lng()
-    zoomToLocation({
-        lat: placeLat,
-        lng: placeLng,
-    });
-}
+    const place = searchResult.getPlace();
+    if (place?.geometry?.location) {
+        const placeLat = place.geometry?.location?.lat()
+        const placeLng = place.geometry?.location?.lng()
+        zoomToLocation({
+            lat: placeLat,
+            lng: placeLng,
+        });
+    }
 }
 }
                 </pre>
@@ -347,10 +347,10 @@ if (place?.geometry?.location) {
                 <pre>
 if (navigator.geolocation) {
 navigator.geolocation.getCurrentPosition((position) => {
-zoomToLocation({
-    lat: position.coords.latitude,
-    lng: position.coords.longitude,
-});
+    zoomToLocation({
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
+    });
 })
 }
                 </pre>
