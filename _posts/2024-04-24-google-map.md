@@ -204,54 +204,54 @@ const setMarkerRef = (marker: Marker | null, key: number) => {
         }
     });
 }
-                </pre>
-                <p><a
-                        href="https://github.com/sankalpaa/GoogleMapNextjs/tree/9eb57a9f3bd7a314e410af6d048b08b0ba3a1805">See
-                        the source</a></p>
-            </div>
+            </pre>
+            <p><a
+                    href="https://github.com/sankalpaa/GoogleMapNextjs/tree/9eb57a9f3bd7a314e410af6d048b08b0ba3a1805">See
+                    the source</a></p>
         </div>
     </div>
 </div>
+</div>
 <div class="row center">
-    <div class="col-sm-6  leaf right">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3 class="leaf-head">Beauty of clustering</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p>See the beauty of clustering.
-            </div>
+<div class="col-sm-6  leaf right">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3 class="leaf-head">Beauty of clustering</h3>
         </div>
     </div>
-    <div class="col-sm-6">
-        <div class="row image-row">
-            <div class="col-sm-12 image-div">
-                <img class="img" style="max-height: 300px;" src="{{site.baseurl}}/assets/2024-04-24/google-map-Cluster-markers.PNG" />
-            </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>See the beauty of clustering.
         </div>
     </div>
 </div>
-<div class="row center">
-    <div class="col-sm-6">
-        <div class="row image-row">
-            <div class="col-sm-12 image-div">
-                <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-autocomplete-address.PNG" />
-            </div>
+<div class="col-sm-6">
+    <div class="row image-row">
+        <div class="col-sm-12 image-div">
+            <img class="img" style="max-height: 300px;" src="{{site.baseurl}}/assets/2024-04-24/google-map-Cluster-markers.PNG" />
         </div>
     </div>
-    <div class="col-sm-6 leaf left">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3 class="leaf-head">Address search</h3>
-            </div>
+</div>
+</div>
+<div class="row center">
+<div class="col-sm-6">
+    <div class="row image-row">
+        <div class="col-sm-12 image-div">
+            <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-autocomplete-address.PNG" />
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Let's integrate Google address search into the map using the <code>@react-google-maps/api</code> npm package.
-                </p>
-                <pre>
+    </div>
+</div>
+<div class="col-sm-6 leaf left">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3 class="leaf-head">Address search</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>Let's integrate Google address search into the map using the <code>@react-google-maps/api</code> npm package.
+            </p>
+            <pre>
 const AutoCompleteOptions = {
 componentRestrictions: { country: 'LK' },
 };
