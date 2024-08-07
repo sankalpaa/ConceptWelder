@@ -8,7 +8,8 @@ title: Concept Welder
 
 `Pair programming` `Arduino` `Node MCU` `ESP8266` `Kids` 
 > As a dad, I want to teach my kids the things I learned later in life, hoping they get a head start. Here how I start that.
->
+
+
 ### [Google Map with Nextjs]({{site.baseurl}}/2024/04/24/google-map-nextjs.html)
 **July 2024**
 
