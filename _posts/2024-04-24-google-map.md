@@ -3,7 +3,6 @@ title: "How I integrate Google map with next"
 date: 2024-04-24
 ---
 <head>
-    <title>Google Map with Nextjs</title>
     <link rel="stylesheet" href="{{site.baseurl}}/assets/2024-04-24/main.css">
 </head>
 <div class="header text-center">
@@ -157,29 +156,6 @@ key={key}
         </div>
     </div>
 </div>
-<!-- <div class="row center">
-    <div class="col-sm-6  leaf right">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3 class="leaf-head">More markers</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Adding more markers to next step
-                </p>
-                <a href="https://www.w3schools.com/bootstrap/bootstrap_get_started.asp">See the source</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6">
-        <div class="row">
-            <div class="col-sm-12">
-                <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-more markers.PNG" />
-            </div>
-        </div>
-    </div>
-</div> -->
 <div class="row center">
     <div class="col-sm-6">
         <div class="row image-row">
