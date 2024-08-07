@@ -2,48 +2,20 @@
 title: "How I integrate Google map with next"
 date: 2024-04-24
 ---
-1. Basic map
-there are few ways we can integrate google map
-we going to follow API provider for this implementation.
-Error
-![image](https://github.com/sankalpaa/ConceptWelder/assets/7065759/c81b2ee3-c6c9-4e0d-b27b-890ccfd16348)
-Solution
-`'use client';`
-
-Error
-![image](https://github.com/sankalpaa/ConceptWelder/assets/7065759/3c5b6565-a63d-4dcc-820a-cd900b7b88e1)
-Solution
-Get google map API key from google cloud platform.
-Add next.config.js file to read environment variable from client side.
-
-
-basic map
-`    <div style={{ height: "100vh", width: "100%" }}>
-      <APIProvider apiKey={googleMapsApiKey}>
-        <Map center={mapCenter} zoom={9}></Map>
-      </APIProvider>
-    </div>`
-importent points 
- set google map api key
- set style to set width and height
-
-3. Show basic marker
-
-`             <AdvancedMarker
-              position={{ lat: 7.9840886, lng: 80.7029496 }}
-            ></AdvancedMarker>`
-            `
-            GOOGLE_MAPS_ID= 'can get from google cloud'
-            `
-            //more details aboug map id
-
-            `const googleMapId = process.env.GOOGLE_MAPS_ID;`
-            `<Map center={mapCenter} zoom={9} mapId={googleMapId}>`
-            
-4. Show more markers
-5. Show info window
-6. Show cluster
-7. Show address search
-8. Get your location (Browser)
-9. Show address
-   
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                            <p>
+                                Integrating <a href="https://mapsplatform.google.com/">Google Maps</a> into a Next.js project can enhance your application's interactivity and user experience. In this article, we'll explore how to seamlessly incorporate Google Maps, add markers, 
+                                and customize its features using the <code>@vis.gl/react-google-maps version 1.1.0 </code> package
+                            </p>
+                            <p>The Google Maps API key and Google Map ID used for advanced map features can be obtained from the <a href="https://mapsplatform.google.com/">Google Maps Platform</a>.</p>
+                            <a
+                            href="https://github.com/sankalpaa/GoogleMapNextjs">Complete source</a>                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
