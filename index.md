@@ -14,4 +14,4 @@ title: Concept Welder
 **July 2024**
 
 `Nextjs` `Google Map` `Marker` `Clustering` `Address Search` 
-> As a dad, I want to teach my kids the things I learned later in life, hoping they get a head start. Here how I start that.
+> Integrating Google Maps into a Next.js project can enhance your application's interactivity and user experience..
