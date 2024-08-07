@@ -2,6 +2,15 @@
 title: "How I integrate Google map with next"
 date: 2024-04-24
 ---
+<head>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/2024-05-24/main.css">
+</head>
+<div class="header text-center">
+    <h1>Google Map with Nextjs</h1>
+    <div class="col-md-12 header-banner">
+        <img src="{{site.baseurl}}/assets/2024-05-24/header-banner.jpg" title="Pair-programming with Kids" width="100%">
+    </div>
+</div>
 <div class="container">
 <div class="row">
     <div class="col-sm-12">
@@ -57,7 +66,7 @@ position={{ lat: 7.9558296, lng: 80.7572161 }}
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-md-12 image-div">
-                <img class="img" src="../assets/2024-07/google-map-basic-marker.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-basic-marker.PNG" />
             </div>
         </div>
     </div>
@@ -66,7 +75,7 @@ position={{ lat: 7.9558296, lng: 80.7572161 }}
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" src="../assets/2024-07/google-map-multiple-markers.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-multiple-markers.PNG" />
             </div>
         </div>
     </div>
@@ -142,7 +151,7 @@ key={key}
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" src="../assets/2024-07/google-map-marker-info-window.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-marker-info-window.PNG" />
             </div>
         </div>
     </div>
@@ -165,7 +174,7 @@ key={key}
     <div class="col-sm-6">
         <div class="row">
             <div class="col-sm-12">
-                <img class="img" src="../assets/2024-07/google-map-more markers.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-more markers.PNG" />
             </div>
         </div>
     </div>
@@ -174,7 +183,7 @@ key={key}
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" src="../assets/2024-07/google-map-Cluster.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-Cluster.PNG" />
             </div>
         </div>
     </div>
@@ -242,7 +251,7 @@ setMarkers((prev) => {
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" style="max-height: 300px;" src="../assets/2024-07/google-map-Cluster-markers.PNG" />
+                <img class="img" style="max-height: 300px;" src="{{site.baseurl}}/assets/2024-05-24/google-map-Cluster-markers.PNG" />
             </div>
         </div>
     </div>
@@ -251,7 +260,7 @@ setMarkers((prev) => {
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" src="../assets/2024-07/google-map-autocomplete-address.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-autocomplete-address.PNG" />
             </div>
         </div>
     </div>
@@ -335,7 +344,7 @@ if (place?.geometry?.location) {
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" src="../assets/2024-07/google-map-center-zoom-location.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-center-zoom-location.PNG" />
             </div>
         </div>
     </div>
@@ -344,7 +353,7 @@ if (place?.geometry?.location) {
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" src="../assets/2024-07/google-map-read-user-location.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-read-user-location.PNG" />
             </div>
         </div>
     </div>
@@ -401,7 +410,7 @@ radius: 3000,
     <div class="col-sm-6">
         <div class="row image-row">
             <div class="col-sm-12 image-div">
-                <img class="img" src="../assets/2024-07/google-map-mark-area-with-circle.PNG" />
+                <img class="img" src="{{site.baseurl}}/assets/2024-05-24/google-map-mark-area-with-circle.PNG" />
             </div>
         </div>
     </div>
@@ -427,5 +436,4 @@ radius: 3000,
             </div>
         </div>
     </div>
-</div>
 </div>
