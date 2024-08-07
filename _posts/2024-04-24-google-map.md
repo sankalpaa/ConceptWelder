@@ -7,7 +7,7 @@ date: 2024-04-24
 </head>
 <div class="header text-center">
     <h1 class="map-h1">Google Map with Nextjs</h1>
-    <div class="col-md-12 header-banner-">
+    <div class="col-md-12 header-banner">
         <img src="{{site.baseurl}}/assets/2024-04-24/header-banner.jpg" title="Google Map with Nextjs" width="100%">
     </div>
 </div>
