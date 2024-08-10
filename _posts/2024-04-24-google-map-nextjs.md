@@ -30,20 +30,22 @@ date: 2024-04-24
         </div>
     </div>
     <div class="row center">
-        <div class="col-sm-6 leaf right">
-            <div class="row">
                 <div class="col-sm-12">
-                    <h3 class="leaf-head">Step 1 with Basic marker</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>
-                        One of the fundamental tasks when working with maps is displaying a marker. In this article,
-                        we'll start with that basic step and explore how to add more and more features to Google
-                        Maps. 
-                    </p>
-                    <pre>
+                <div class="row">
+                    <div class="col-sm-6 leaf right">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3 class="leaf-head">Step 1 with Basic marker</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>
+                                    One of the fundamental tasks when working with maps is displaying a marker. In this article,
+                                    we'll start with that basic step and explore how to add more and more features to Google
+                                    Maps. 
+                                </p>
+                                <pre>
 &lt;APIProvider apiKey={googleMapsApiKey}&gt;
 &lt;Map
     defaultCenter={mapCenter}
@@ -56,40 +58,44 @@ date: 2024-04-24
     &lt;/AdvancedMarker&gt;
 &lt;/Map&gt;
 &lt;/APIProvider&gt;
-                    </pre>
-                    <a
-                        href="https://github.com/sankalpaa/GoogleMapNextjs/tree/e0a997394589ae4662d064bddff28737d62d2efa">See
-                        the source</a>
+                                </pre>
+                                <a
+                                    href="https://github.com/sankalpaa/GoogleMapNextjs/tree/e0a997394589ae4662d064bddff28737d62d2efa">See
+                                    the source</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row image-row">
+                            <div class="col-md-12 image-div">
+                                <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-basic-marker.PNG" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="row image-row">
-                <div class="col-md-12 image-div">
-                    <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-basic-marker.PNG" />
-                </div>
-            </div>
-        </div>
     </div>
     <div class="row center">
-        <div class="col-sm-6">
-            <div class="row image-row">
-                <div class="col-sm-12 image-div">
-                    <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-multiple-markers.PNG" />
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 leaf left">
+        <div class="col-sm-12">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="leaf-head">Customizations & Multiple markers</h3>
+                <div class="col-sm-6">
+                    <div class="row image-row">
+                        <div class="col-sm-12 image-div">
+                            <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-multiple-markers.PNG" />
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Here are some customizations to the pin, And adding more markers from an array.
-                    </p>
-                    <pre>
+                <div class="col-sm-6 leaf left">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="leaf-head">Customizations & Multiple markers</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Here are some customizations to the pin, And adding more markers from an array.
+                            </p>
+                            <pre>
 places.map((place: Place, key: number) =&gt; (
 &lt;AdvancedMarker
     position={{ lat: place.geoPoint.latitude, lng: place.geoPoint.longitude }}
@@ -98,27 +104,31 @@ places.map((place: Place, key: number) =&gt; (
     &lt;Pin background={'#FF00FF'} borderColor={'#FF00FF'} glyphColor={'#FFFFFF'}&gt;&lt;/Pin&gt;
 &lt;/AdvancedMarker&gt;
 ))     
-                    </pre>
-                    <a
-                        href="https://github.com/sankalpaa/GoogleMapNextjs/tree/fcb7d7308cd707c38d22e76e93ffd65432eaba43">See
-                        the source</a>
+                            </pre>
+                            <a
+                                href="https://github.com/sankalpaa/GoogleMapNextjs/tree/fcb7d7308cd707c38d22e76e93ffd65432eaba43">See
+                                the source</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row center">
-        <div class="col-sm-6 leaf right">
+        <div class="col-sm-12">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="leaf-head">Info window</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Let's first show a small information window, and in the next step, improve it to open only
-                        when clicking on the marker.
-                    </p>
-                    <pre>
+                <div class="col-sm-6 leaf right">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="leaf-head">Info window</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Let's first show a small information window, and in the next step, improve it to open only
+                                when clicking on the marker.
+                            </p>
+                            <pre>
 places.map((place: Place, key: number) =&gt; (
 &lt;div&gt;
     &lt;AdvancedMarker
@@ -138,44 +148,48 @@ places.map((place: Place, key: number) =&gt; (
     &lt;/InfoWindow&gt;
 &lt;/div&gt;
 ))
-                    </pre>
-                    <p><a
-                            href="https://github.com/sankalpaa/GoogleMapNextjs/tree/99ea2acf2d6fae7741505527d4d8fdb58dbcd8de">See
-                            the source</a></p>
-                    <p><a
-                            href="https://github.com/sankalpaa/GoogleMapNextjs/tree/1d38a2135dc17753980f61d5fd69c6fa219e342c">Next
-                            step, Marker click behavior</a></p>
+                            </pre>
+                            <p><a
+                                    href="https://github.com/sankalpaa/GoogleMapNextjs/tree/99ea2acf2d6fae7741505527d4d8fdb58dbcd8de">See
+                                    the source</a></p>
+                            <p><a
+                                    href="https://github.com/sankalpaa/GoogleMapNextjs/tree/1d38a2135dc17753980f61d5fd69c6fa219e342c">Next
+                                    step, Marker click behavior</a></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="row image-row">
-                <div class="col-sm-12 image-div">
-                    <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-marker-info-window.PNG" />
+                <div class="col-sm-6">
+                    <div class="row image-row">
+                        <div class="col-sm-12 image-div">
+                            <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-marker-info-window.PNG" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row center">
-        <div class="col-sm-6">
-            <div class="row image-row">
-                <div class="col-sm-12 image-div">
-                    <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-Cluster.PNG" />
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 leaf left">
+        <div class="col-sm-12">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="leaf-head">Marker Clustering</h3>
+                <div class="col-sm-6">
+                    <div class="row image-row">
+                        <div class="col-sm-12 image-div">
+                            <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-Cluster.PNG" />
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Clustering is a beautiful feature available in Google Maps; let's see how we can implement
-                        it. By using <code>@googlemaps/markerclusterer</code> package.
-                    </p>
-                    <pre>
+                <div class="col-sm-6 leaf left">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="leaf-head">Marker Clustering</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Clustering is a beautiful feature available in Google Maps; let's see how we can implement
+                                it. By using <code>@googlemaps/markerclusterer</code> package.
+                            </p>
+                            <pre>
 const clusterer = useRef<MarkerClusterer | null>(null);
 
 useEffect(() => {
@@ -204,55 +218,63 @@ const setMarkerRef = (marker: Marker | null, key: number) => {
         }
     });
 }
-                    </pre>
-                    <p><a
-                            href="https://github.com/sankalpaa/GoogleMapNextjs/tree/9eb57a9f3bd7a314e410af6d048b08b0ba3a1805">See
-                            the source</a></p>
+                            </pre>
+                            <p><a
+                                    href="https://github.com/sankalpaa/GoogleMapNextjs/tree/9eb57a9f3bd7a314e410af6d048b08b0ba3a1805">See
+                                    the source</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row center">
-    <div class="col-sm-6  leaf right">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3 class="leaf-head">Beauty of clustering</h3>
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-6  leaf right">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="leaf-head">Beauty of clustering</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>See the beauty of clustering.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row image-row">
+                        <div class="col-sm-12 image-div">
+                            <img class="img" style="max-height: 300px;" src="{{site.baseurl}}/assets/2024-04-24/google-map-Cluster-markers.PNG" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p>See the beauty of clustering.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6">
-        <div class="row image-row">
-            <div class="col-sm-12 image-div">
-                <img class="img" style="max-height: 300px;" src="{{site.baseurl}}/assets/2024-04-24/google-map-Cluster-markers.PNG" />
-            </div>
-        </div>
-    </div>
 </div>
     <div class="row center">
-        <div class="col-sm-6">
-            <div class="row image-row">
-                <div class="col-sm-12 image-div">
-                    <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-autocomplete-address.PNG" />
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 leaf left">
+        <div class="col-sm-12">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="leaf-head">Address search</h3>
+                <div class="col-sm-6">
+                    <div class="row image-row">
+                        <div class="col-sm-12 image-div">
+                            <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-autocomplete-address.PNG" />
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Let's integrate Google address search into the map using the <code>@react-google-maps/api</code> npm package.
-                    </p>
-                    <pre>
+                <div class="col-sm-6 leaf left">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="leaf-head">Address search</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Let's integrate Google address search into the map using the <code>@react-google-maps/api</code> npm package.
+                            </p>
+                            <pre>
 const AutoCompleteOptions = {
 componentRestrictions: { country: 'LK' },
 };
@@ -273,24 +295,28 @@ type="text"
 placeholder="Enter postcode, suburb or locator name"
 &gt;&lt;/input&gt;
 &lt;/Autocomplete&gt;
-                    </pre>
-                    <p><a href="https://github.com/sankalpaa/GoogleMapNextjs/tree/788c2f2bcef065fb5daf9a3c4526d761cdc71d5b">See the source</a></p>
+                            </pre>
+                            <p><a href="https://github.com/sankalpaa/GoogleMapNextjs/tree/788c2f2bcef065fb5daf9a3c4526d761cdc71d5b">See the source</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row center">
-        <div class="col-sm-6  leaf right">
+        <div class="col-sm-12">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="leaf-head">Locate to the address</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>When the user searches for an address, let's display that location on the map.
-                    </p>
-                    <pre>
+                <div class="col-sm-6  leaf right">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="leaf-head">Locate to the address</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>When the user searches for an address, let's display that location on the map.
+                            </p>
+                            <pre>
 const zoomToLocation = (location: LatLngLiteral) => {
 if (map) {
     map.setCenter({
@@ -314,38 +340,42 @@ if (searchResult) {
     }
 }
 }
-                    </pre>
-                    <a href="https://github.com/sankalpaa/GoogleMapNextjs/commit/2498017ae92416ebb214951b2fc47d95197f892a">See the source</a>
+                            </pre>
+                            <a href="https://github.com/sankalpaa/GoogleMapNextjs/commit/2498017ae92416ebb214951b2fc47d95197f892a">See the source</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="row image-row">
-                <div class="col-sm-12 image-div">
-                    <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-center-zoom-location.PNG" />
+                <div class="col-sm-6">
+                    <div class="row image-row">
+                        <div class="col-sm-12 image-div">
+                            <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-center-zoom-location.PNG" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row center">
-        <div class="col-sm-6">
-            <div class="row image-row">
-                <div class="col-sm-12 image-div">
-                    <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-read-user-location.PNG" />
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 leaf left">
+        <div class="col-sm-12">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="leaf-head">Position of a user</h3>
+                <div class="col-sm-6">
+                    <div class="row image-row">
+                        <div class="col-sm-12 image-div">
+                            <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-read-user-location.PNG" />
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Use the HTML Geolocation API to get the user's geographical position and display it on the map
-                    </p>
-                    <pre>
+                <div class="col-sm-6 leaf left">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="leaf-head">Position of a user</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Use the HTML Geolocation API to get the user's geographical position and display it on the map
+                            </p>
+                            <pre>
 if (navigator.geolocation) {
 navigator.geolocation.getCurrentPosition((position) => {
     zoomToLocation({
@@ -354,24 +384,28 @@ navigator.geolocation.getCurrentPosition((position) => {
     });
 })
 }
-                    </pre>
-                    <a href="https://github.com/sankalpaa/GoogleMapNextjs/commit/2498017ae92416ebb214951b2fc47d95197f892a">See the source</a>
+                            </pre>
+                            <a href="https://github.com/sankalpaa/GoogleMapNextjs/commit/2498017ae92416ebb214951b2fc47d95197f892a">See the source</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row center">
-        <div class="col-sm-6  leaf right">
+        <div class="col-sm-12">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="leaf-head">Mark an area</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Here's how to mark an area on Google Maps.
-                    </p>
-                    <pre>
+                <div class="col-sm-6  leaf right">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="leaf-head">Mark an area</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Here's how to mark an area on Google Maps.
+                            </p>
+                            <pre>
 new google.maps.Circle({
 strokeColor: "#FF0000",
 strokeWeight: 2,
@@ -380,15 +414,17 @@ map,
 center: latlng,
 radius: 3000,
 })
-                    </pre>
-                    <a href="https://github.com/sankalpaa/GoogleMapNextjs/tree/0890b1fa2ffb4f7a7a6880dc89e5bddee5ecb015">See the source</a>
+                            </pre>
+                            <a href="https://github.com/sankalpaa/GoogleMapNextjs/tree/0890b1fa2ffb4f7a7a6880dc89e5bddee5ecb015">See the source</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="row image-row">
-                <div class="col-sm-12 image-div">
-                    <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-mark-area-with-circle.PNG" />
+                <div class="col-sm-6">
+                    <div class="row image-row">
+                        <div class="col-sm-12 image-div">
+                            <img class="img" src="{{site.baseurl}}/assets/2024-04-24/google-map-mark-area-with-circle.PNG" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
