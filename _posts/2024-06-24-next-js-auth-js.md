@@ -1,6 +1,6 @@
-<div class="row">
+class="full-width-image" title=<div class="row">
     <div class="col-md-12 header-banner">
-        <img src="{{site.baseurl}}/assets/2024-06-24/header.jpg" title="OAuth in Next.js Using Auth.js" >
+        <img src="{{site.baseurl}}/assets/2024-06-24/header.jpg" class="full-width-image" title="OAuth in Next.js Using Auth.js" >
     </div>
 </div>
     
@@ -24,7 +24,7 @@ bun dev
 ```
 <div class="row">
     <div class="col-md-12">
-        <img src="{{site.baseurl}}/assets/2024-06-24/next-js-basic-app.PNG" title="Basic Next.js app running">
+        <img src="{{site.baseurl}}/assets/2024-06-24/next-js-basic-app.PNG" class="full-width-image" title="Basic Next.js app running">
         <p>Basic Next.js app running.</p>
         <span>
         <a href="https://github.com/sankalpaa/NextJs-AuthJs/tree/327446e0c0659859467088aa9bb7d7021cf7d8c8">Step 1 source</a>
@@ -78,7 +78,7 @@ http://localhost:3000/api/auth/signin
 
 <div class="row">
     <div class="col-md-12">
-        <img src="{{site.baseurl}}/assets/2024-06-24/next-js-auth-js-signin-api-without-providers.PNG" title="Auth.js Signin method">
+        <img src="{{site.baseurl}}/assets/2024-06-24/next-js-auth-js-signin-api-without-providers.PNG" class="full-width-image" title="Auth.js Signin method">
         <p>Auth.js Signin method (no providers listing).</p>
         <span>
         <a href="https://github.com/sankalpaa/NextJs-AuthJs/tree/427745f3da8eef46489c35bb44970096f81d5962">Step 3 source</a>
@@ -110,7 +110,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
 
 <div class="row">
     <div class="col-md-12">
-        <img src="{{site.baseurl}}/assets/2024-06-24/next-js-auth-js-signin-api-with-providers.PNG" title="Auth.js signin with few providers">
+        <img src="{{site.baseurl}}/assets/2024-06-24/next-js-auth-js-signin-api-with-providers.PNG" class="full-width-image" title="Auth.js signin with few providers">
         <p>Auth.js Signin method with few providers.</p>
         <span>
         <a href="https://github.com/sankalpaa/NextJs-AuthJs/tree/cc6575dc96d5ac1abe81fd0c7119255a02ee7e93">Step 4 source</a>
@@ -165,10 +165,10 @@ export default function SignIn() {
     <div class="col-md-12">
         <div class="row">
             <div class="col-md-6">
-                <img src="{{site.baseurl}}/assets/2024-06-24/next-js-auth-js-user-avator.PNG" title="Auth.js user avator using session">
+                <img src="{{site.baseurl}}/assets/2024-06-24/next-js-auth-js-user-avator.PNG" class="full-width-image" title="Auth.js user avator using session">
             </div>
             <div class="col-md-6">
-                <img src="{{site.baseurl}}/assets/2024-06-24/next-js-auth-js-sign-in-component.PNG" title="Auth.js signin">
+                <img src="{{site.baseurl}}/assets/2024-06-24/next-js-auth-js-sign-in-component.PNG" class="full-width-image" title="Auth.js signin">
             </div>
         </div>
         <p>Auth.js user avator with session and sign-in.</p>
@@ -207,4 +207,6 @@ export default auth((req) => {
 [Check complete github repo](https://github.com/sankalpaa/NextJs-AuthJs)
 
 I hope this helps, and I look forward to seeing you build your next tool with OAuth. Thank you!
+
+
 
