@@ -1,4 +1,9 @@
-class="full-width-image" title=<div class="row">
+---
+title: "OAuth in Next.js Using Auth.js"
+date: 2024-06-24
+---
+
+<div class="row">
     <div class="col-md-12 header-banner">
         <img src="{{site.baseurl}}/assets/2024-06-24/header.jpg" class="full-width-image" title="OAuth in Next.js Using Auth.js" >
     </div>
