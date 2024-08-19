@@ -11,7 +11,9 @@ date: 2024-06-24
     
 # OAuth in Next.js using Auth.js
 
-When you need to register on a new platform, what’s your preferred way? Do you fill out a lengthy form, validate your email, create a strong password, and then manage that password? Or do you simply log in using your social media account or another [OAuth](https://oauth.net/2/) provider? Most likely, you opt for the convenience of an OAuth provider. But how do you implement this in a Next.js application? Follow this step-by-step guide to seamlessly integrate OAuth with [Next js](https://nextjs.org/) using [Auth.js](https://authjs.dev/).
+When you need to register on a new platform, what’s your preferred way? Do you fill out a lengthy form, validate your email, create a strong password, and then manage that password? Or do you simply log in using your social media account or another [OAuth](https://oauth.net/2/) provider? 
+
+Most likely, you opt for the convenience of an OAuth provider. But how do you implement this in a Next.js application? Follow this step-by-step guide to seamlessly integrate OAuth with [Next js](https://nextjs.org/) using [Auth.js](https://authjs.dev/).
 
 ## 1. Let's start with new Next.js App
  I used [Create Next App](https://www.npmjs.com/package/create-next-app) CLI tool.
