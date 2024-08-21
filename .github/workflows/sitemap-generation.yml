@@ -28,16 +28,7 @@ jobs:
         echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
         
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v6.1.0
-      with:
-        title: "Automated sitemap update"
-        body: > 
-          Automated changes. Sitemap updated by 
-          the [generate-sitemap](https://github.com/cicirello/generate-sitemap) 
-          GitHub action.  
-        commit-message: "Automated sitemap update."
-        author: Sankalpa <sankalpaa>
-        committer: Sankalpa <sankalpaa>
-        branch: create-pull-request/sitemap
-        delete-branch: true
+    - name: create pull request
+      run: gh pr create -B base_branch -H branch_to_merge --title 'Merge branch_to_merge into base_branch' --body 'Created by Github action'
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
