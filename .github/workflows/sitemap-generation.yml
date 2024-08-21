@@ -23,7 +23,7 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://sankalpaa.github.io/ConceptWelder/
+        base-url-path: https://conceptwelder.com
         path-to-root: .
         
     - name: Output stats
