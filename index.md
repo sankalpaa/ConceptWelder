@@ -19,5 +19,5 @@ title: Concept Welder
 **June 2024**
 
 `Pair programming` `Arduino` `Node MCU` `ESP8266` `Kids` 
-> As a dad, I want to teach my kids the things I learned later in life, hoping they get a head start. Here how I start that.
+> As a dad, I want to teach my kids the things I learned later in life, hoping they get a head start. Here how I start that...
 
