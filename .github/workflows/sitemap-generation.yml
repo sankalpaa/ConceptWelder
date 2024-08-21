@@ -20,7 +20,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://conceptwelder.com
-        path-to-root: /
+        path-to-root: .
 
     - name: Output stats
       run: |
