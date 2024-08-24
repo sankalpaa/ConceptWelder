@@ -2,18 +2,17 @@
 title: "Email Inbox with SendGrid"
 date: 2024-09-24
 ---
-
 <head>
-  <style>
-  .container {
-    border: 1px solid #dedede;
-    background-color: #a39d87;
-    color: #000000;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
-  }
-  </style>
+<style>
+.container {
+  border: 1px solid #dedede;
+  background-color: #a39d87;
+  color: #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+</style>
 </head>
 
 <div class="row">
@@ -133,3 +132,131 @@ public async Task<bool> SendEmail(MailingVM resources)
     //TO ADD
 }
 ```
+Call the API via Postman
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/sendgrid-check-message-postman.jpg" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+The result should be displayed as bellow.
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/sendgrid-mail-received.png" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+This is the how we send emails via the SendGrid. Moreover, you can add references, Cc, Bcc and attachments through the SendGrid object.
+For an example if you want to add attachments you have to add them as a stream.
+
+``` c#
+foreach (var item in resource.Files)
+{
+    
+
+
+
+    //TO ADD
+}
+```
+In SendGrid API they providing additional feature to catchup reply emails. It’s something like forwarding messages feature and SendGrid it’s known as “Inbound Parse”.
+SendGrid’s Inbound Parse Webhook allows you to admit emails that get automatically broken apart by SendGrid and also transferred to a URL of your picking. SendGrid will snare the content, attachments, and the heads from any dispatch it receives for your specified hostname.
+To receiving emails, you have to do couple of changes in the SendGrid settings.
+We need to have following steps to complete integration with SendGrid.
+•	Create a subdomain under their ‘abc.com’ domain and create new email under that. (Example: Sub domain – admin.abc.com, Email - info@ admin.abc.com)
+•	Provide the newly created subdomain, email and email credentials to us to configure it in SendGrid.
+•	We have to generate MX record.
+•	We have to configure above MX record settings for newly created subdomain. 
+•	After you configured that we can validate and complete the integration.
+
+To add MX record you must go to Settings - Sender Authentication direction and it will display an interface regarding the Domain Authentication.
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/azure-sendgrid-domain-authentication.jpg" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+To receive the reply mails you have to add your API endpoint. It will received as form-data. Then you have to add the API URL to add Inbound Parse. If you want to catchup the receiving emails, you must go to Settings - Inbound Parse direction and it will display an interface regarding the Inbound Parse.
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/azure-sendgrid-inbound.png" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+Click on the “Add Host & URL” button. A drawer should be displayed.
+•	You must select a Domain
+•	Destination URL field, I’m using Ngrok to access whatever you are running on localhost:5001 through the URL that follows Forwarding above(More details to click - Product | ngrok)
+
+First what you have to do is generate accessible URL from Ngrok. There is a command to run and command should be “ngrok http https://localhost:5001”.
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/api-test-with-ngrock.jpg" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+Your accessible URL should be https://ec0d-45-121-88-191.ngrok-free.app.
+Then put the accessible URL with related API call and put the URL in Inbound parse.
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/azure-sendgrid-addhost-url.jpg" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+After the SendGrid setup you must need to create a POST method in the API controller.
+
+``` c#
+    [HttpPost("getReply")]
+    public async Task<ActionResult<bool>> GetReply()
+    {
+
+    }
+    //TO ADD
+```
+Let’s try to send an email and get a reply message information to our endpoint.
+Now I’m going to send an email.
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/postman-test.jpg" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/sendgrid-inbound-parser.png" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+Then, I’m adding reply for this mail.
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/sendgrid-reply-to-message.png" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+In here what we are expecting is catch the replay message in our endpoint. So, the Text should be “This is the reply message!!”.
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2024-09/sendgrid-received-message.png" class="full-width-image" title="SendGrid sender verification">
+        <p>Sender verification.</p>
+    </div>
+</div>
+
+This is the way how we can get the reply messages from the SendGrid.
+
+Conclusion
+Now we all we know the power of SendGrid mailing service within the minimum effort and how we going to use it in the real application. Furthermore, we use SendGrid to catch-up replied emails with attachments, message Id, references and etc.
