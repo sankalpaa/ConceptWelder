@@ -126,10 +126,17 @@ Then, create a method to send an email.
 public async Task<bool> SendEmail(MailingVM resources)
 {
     var key = "your_sendgrid_key"
+    var client = new SendGridClient(key);
+    var messge = MailHelper.CreateSingleEmail(
+        "fromemail@FromEmail.com",
+        "toemail@ToEmail.com",
+        resource.Subject,
+        resource.PlainText, 
+        resource.HtmlContent
+    );
 
-
-
-    //TO ADD
+    var response = await client.SendEmailAsync(message);
+    return resonse.IsSuccessStatusCode;
 }
 ```
 Call the API via Postman
@@ -154,11 +161,18 @@ For an example if you want to add attachments you have to add them as a stream.
 ``` c#
 foreach (var item in resource.Files)
 {
-    
+    var memoryStream = new MemoryStream();
+    await item.CopyToAsync(memoryStream);
+    memoryStream.Position = 0;
 
-
-
-    //TO ADD
+    var attachment = new SendGrid.Helpers.Mail.Attachment()
+    {
+        Content = Convert.ToBase64String(memoryStream.ToArray()),
+        Filename = itme.FileName, 
+        Type = mimeTypeMapping.GetMimeType(item.FileName),
+        Disposition = "attchment"
+    };
+    attachments.Add(attachement);
 }
 ```
 In SendGrid API they providing additional feature to catchup reply emails. It’s something like forwarding messages feature and SendGrid it’s known as “Inbound Parse”.
@@ -218,9 +232,9 @@ After the SendGrid setup you must need to create a POST method in the API contro
     [HttpPost("getReply")]
     public async Task<ActionResult<bool>> GetReply()
     {
-
+        var result = Request.Form;
+        return Ok(await Task.FromResult(true));
     }
-    //TO ADD
 ```
 Let’s try to send an email and get a reply message information to our endpoint.
 Now I’m going to send an email.
