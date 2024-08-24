@@ -25,15 +25,13 @@ date: 2024-09-24
 <span>By: [Shafran Ashraff](https://www.linkedin.com/in/shafran-ashraff-uk/), [Sankalpa Abeygunawardhana](https://www.linkedin.com/in/sankalpaabeygunawardhana/)</span>
 
 ## Introduction
-SendGrid (also known as Twilio SendGrid) is an open-source SaaS platform that is based in managing transactional and marketing emails. In other words, SendGrid manages different types of emails, such as shipping notifications, real time email features, email newsletters, inbound parse etc. They provide API for developers that allows to pull information about their email program without having to actually log on to SendGrid. Furthermore, users can pull lists, statistics, and even email reports. In addition to this, Users can send email via the web API without using traditional SMTP.
+[SendGrid](https://sendgrid.com/en-us/resource/setting-up-your-email-infrastructure-with-twilio-sendgrid), also known as Twilio SendGrid, is a popular SaaS platform for managing transactional and marketing emails. It’s widely favored by developers for its powerful email-sending capabilities via API, bypassing the need for traditional SMTP. While SendGrid excels at sending emails like shipping notifications, real-time alerts, and newsletters, this article focuses on a different aspect: how to handle incoming emails and set up a simple email inbox using SendGrid and [Azure](https://azure.microsoft.com/en-us)
 
 ## Implementation
-SendGrid is one of the most popular email service option for sending emails from Azure. Azure and SendGrid are so popular because there used to be a free plan with 100 emails per a day limit to Azure users.
+Let's begin with what we already know: sending emails using the API.
 
-Let’s take a quick example:
-If you are using Azure Twilio SendGrid Subscription you can send emails, monitoring emails, inbound parse and customize email template outside your Business Code.
-Let’s take a quick example:
-Go to your [Azure portal](https://portal.azure.com/) and go to marketplace and search to “sendgrid”
+### Create Twilio SendGrid Account
+Go to your [Azure portal](https://portal.azure.com/), navigate to the Marketplace, and search for "SendGrid."
 
 <div class="row">
     <div class="col-md-12">
@@ -42,19 +40,14 @@ Go to your [Azure portal](https://portal.azure.com/) and go to marketplace and s
     </div>
 </div>
 
-Click on the “Twilio SendGrid” and Subscribe To Twilio SendGrid. After Subscription it will create a SasS application
-
-After created SaaS application, Click on the created application. Then it will direct to the SendGrid SaaS application
-
 <div class="row">
     <div class="col-md-12">
         <img src="../assets/2024-09/azure-sendgrid-saas.jpg" class="full-width-image" title="SendGrid SaaS">
-        <p>SendGrid SaaS.</p>
+        <p>SendGrid SaaS application.</p>
     </div>
 </div>
 
-Once you click on the “Open SaaS Account on publisher’s site” link it will be open the SendGrid dashboard as a new tab.
-
+After subscribing, you can access your SendGrid account by clicking the "Open SaaS Account on Publisher's Site" link in the SendGrid SaaS application.
 
 <div class="row">
     <div class="col-md-12">
@@ -63,14 +56,17 @@ Once you click on the “Open SaaS Account on publisher’s site” link it will
     </div>
 </div>
 
-When we considering about the SendGrid setup for mailing feature, we must do some couple of changes inside the SendGrid settings. Let’s see how to setup SendGrid for API project.
+### SendGrid configurations.
 
-First you have to copy the API key and store the value in AppSettings.Json file. If you go to Settings – API Key direction, it will return all information of the related API information.
+There are a few settings we need to configure in the SendGrid account.
+
+First, we need an API key to connect our application to the SendGrid account. You can create a new API key under the "API Keys" menu in the dashboard.
+
 
 <div class="row">
     <div class="col-md-12">
-        <img src="../assets/2024-09/azure-sendgrid-apikey.jpg" class="full-width-image" title="SendGrid SaaS">
-        <p>SendGrid SaaS.</p>
+        <img src="../assets/2024-09/azure-sendgrid-apikey.jpg" class="full-width-image" title="SendGrid dashboard API keys">
+        <p>SendGrid Dashboard API keys.</p>
     </div>
 </div>
 
