@@ -91,7 +91,7 @@ npx auth secret
 You'll need to create two files to hold configuration information and handle the API. Respectively, create the `auth.ts` file for configuration and the `api/auth/[...nextauth]/route.ts` file for the API. 
 
  ```typescript
- # auth.ts
+ // auth.ts
 import NextAuth from "next-auth"
  
 export const { handlers, signIn, signOut, auth } = NextAuth({
@@ -99,7 +99,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
 })
 ```
  ``` typescript
- # route.ts
+ // route.ts
 import { handlers } from "@/configuration/auth";
 
 export const { GET, POST } = handlers
@@ -132,8 +132,8 @@ https://authjs.dev/guides/configuring-github
 
 The OAuth providers supported by Auth.js are listed [here](https://authjs.dev/getting-started/authentication/oauth).
 
- ```bash
- # auth.ts
+ ```typescript
+ //auth.ts
 import NextAuth from "next-auth"
 import Github from "next-auth/providers/github"
 import Google from "next-auth/providers/google"
