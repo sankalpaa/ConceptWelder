@@ -3,6 +3,35 @@ title: "OAuth in Next.js using Auth.js"
 date: 2024-06-24
 ---
 
+<!-- Title Tag -->
+<title>OAuth in Next.js using Auth.js | Concept Welder</title>
+
+<!-- Meta Description -->
+<meta name="description" content="Learn how to seamlessly integrate OAuth with Next.js using Auth.js in this step-by-step guide. Secure your app by enabling social logins through OAuth providers.">
+
+<!-- Viewport Tag -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://conceptwelder.com/2024/06/24/next-js-auth-js.html">
+
+<!-- Open Graph Tags (For Social Media) -->
+<meta property="og:title" content="OAuth in Next.js using Auth.js">
+<meta property="og:description" content="A comprehensive guide to integrating OAuth in Next.js applications using Auth.js for secure authentication.">
+<meta property="og:image" content="https://conceptwelder.com/assets/2024-06-24/header.jpg">
+<meta property="og:url" content="https://conceptwelder.com/2024/06/24/next-js-auth-js.html">
+<meta property="og:type" content="article">
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OAuth in Next.js using Auth.js">
+<meta name="twitter:description" content="Step-by-step guide to integrating OAuth authentication in Next.js using Auth.js.">
+<meta name="twitter:image" content="https://conceptwelder.com/assets/2024-06-24/header.jp">
+
+<!-- Robots Meta Tag -->
+<meta name="robots" content="index, follow">
+
+
 <div class="row">
     <div class="col-md-12 header-banner">
         <img src="{{site.baseurl}}/assets/2024-06-24/header.jpg" class="full-width-image" title="OAuth in Next.js Using Auth.js" >
@@ -61,7 +90,7 @@ npx auth secret
 ## 3. Setup Auth configuration file and API files.
 You'll need to create two files to hold configuration information and handle the API. Respectively, create the `auth.ts` file for configuration and the `api/auth/[...nextauth]/route.ts` file for the API. 
 
- ```bash
+ ```typescript
  # auth.ts
 import NextAuth from "next-auth"
  
@@ -69,7 +98,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [],
 })
 ```
- ```bash
+ ``` typescript
  # route.ts
 import { handlers } from "@/configuration/auth";
 
@@ -129,8 +158,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
 
 You can use `session.user` to validate if there is a valid user after logging in with an OAuth provider.
 
-```bash
-# user-avator.tsx
+```typescript
+// user-avator.tsx
 import { auth } from "@/configuration/auth"
 export default async function UserAvatar() {
     const session = await auth()
@@ -150,8 +179,8 @@ export default async function UserAvatar() {
 }
 ```
 Sign-in helper component.
-```bash
-# Sign-in.tsx 
+```typescript
+// Sign-in.tsx 
 import { signIn } from "@/configuration/auth"
 
 export default function SignIn() {
@@ -192,11 +221,11 @@ New Sign out component in `pages\profile\page.tsx`
 All protected content routes are secured using a middleware-based route guard (`middleware.ts`). Protected pages are configured within the same file. In the following middleware, users are redirected to the `/pages/login` route if they try to access a protected route without a valid user session.
 
 
-```bash
-#middleware.ts
+```typescript
+//middleware.ts
 import { auth } from "./configuration/auth"
 
-#routes should protected
+//routes should protected
 export const config = {
   matcher: ['/pages/profile', '/pages/protectedPage1'],
 }
