@@ -30,7 +30,7 @@ date: 2024-08-24
 
 <div class="row">
     <div class="col-md-12 header-banner">
-        <img src="./../assets/2024-08-24/openart-image_QaUdLMS-_1726289255111_raw.jpg" class="full-width-image" title="AI, We and Tomorrow" >
+        <img src="{{site.baseurl}}/assets/2024-08-24/openart-image_QaUdLMS-_1726289255111_raw.jpg" class="full-width-image" title="AI, We and Tomorrow" >
     </div>
 </div>
     
