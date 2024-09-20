@@ -1,8 +1,23 @@
 ---
-title: "AI, We and Tomorrow"
+title: "AI, We and Tomorrow | Exploring AI's Role in Programming and the Futur"
 date: 2024-08-24
 ---
 <head>
+<title>AI, We, and Tomorrow | Exploring AI's Role in Programming and the Future</title>
+<meta name="description" content="Explore the future of AI and its impact on programmers, jobs, and daily tasks. Learn how to integrate OpenAI with ChatGPT as your coding assistant in this thought-provoking experiment.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://conceptwelder.com/2024/08/24/ai-we-tomorrow.html">
+<meta property="og:title" content="AI, We, and Tomorrow | AI in Programming and the Future">
+<meta property="og:description" content="Dive into an experiment with OpenAI's ChatGPT as a coding assistant. Understand AI's current capabilities and how it affects jobs and programming.">
+<meta property="og:image" content="https://conceptwelder.com/assets/2024-08-24/ai-we-tomorrow-image.jpg">
+<meta property="og:url" content="https://conceptwelder.com/2024/08/24/ai-we-tomorrow.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI, We, and Tomorrow | Exploring AI's Role in Programming and the Future">
+<meta name="twitter:description" content="An insightful look at AI's role in programming and the job market, using ChatGPT as a coding assistant in this experimental journey.">
+<meta name="twitter:image" content="https://conceptwelder.com/assets/2024-08-24/ai-we-tomorrow-image.jpg">
+<meta name="robots" content="index, follow">
+
 <style>
 .container {
   border: 1px solid #dedede;
@@ -31,7 +46,7 @@ date: 2024-08-24
 
 <div class="row">
     <div class="col-md-12 header-banner">
-        <img src="{{site.baseurl}}/assets/2024-08-24/openart-image_QaUdLMS-_1726289255111_raw.jpg" class="full-width-image" title="AI, We and Tomorrow" >
+        <img src="{{site.baseurl}}/assets/2024-08-24/ai-we-tomorrow-image.jpg" class="full-width-image" title="AI, We and Tomorrow" >
     </div>
 </div>
     
