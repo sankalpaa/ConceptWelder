@@ -3,6 +3,13 @@ title: Concept Welder
 ---
 ## Recent Posts
 
+### [AI, We, and Our Tomorrow]({{site.baseurl}}/2024/08/24/ai-we-tomorrow.html)
+**September 2024**
+
+`AI` `Programmers` `OpenAI` `Gemini` `Claude` `Nextjs`
+>What will happen to our jobs tomorrow with the rise of AI?
+
+
 ### [OAuth in Next.js using Auth.js]({{site.baseurl}}/2024/06/24/next-js-auth-js.html)
 **August 2024**
 
