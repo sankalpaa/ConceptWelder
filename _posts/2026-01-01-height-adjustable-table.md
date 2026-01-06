@@ -57,7 +57,7 @@ This is the structure that gives the table its shape and strength.
 Movement comes from the muscles of the system.
 
 * Two linear actuators
-(300 mm stroke, 12 V DC)
+(750N, 300 mm stroke, 12 V DC, Speed 10mm/s)
 
 These provide the lifting force, working together to raise and lower the table in a controlled and balanced way.
 
@@ -68,3 +68,24 @@ No movement works without control.
 * The controller circuit — responsible for directing motion and handling user input.
 
 * The power supply — delivering stable power to keep everything moving safely and reliably.
+
+## Design and Mechanical Mistakes I Made
+
+Some lessons are best learned the hard way. This project was no exception.
+
+* Measure twice — then measure again before cutting.
+I made several measurement mistakes, especially around overall height. One thing I underestimated was the impact of adding wheels. Even a small change at the bottom affects everything above it.
+
+* Guidance matters more than I expected.
+I initially used two steel tubes as guide rails for the moving section. While it worked, it wasn’t ideal. Looking back, using proper linear rails would have provided smoother motion and better long-term reliability.
+
+* Actuator choice is more than just force.
+Speed matters. So does smoothness. And if the actuator includes a position sensor, it opens the door to features like preset heights — something I only fully appreciated later.
+
+* Actuator placement and cable management need early planning.
+Where you mount the actuators affects stability, alignment, and side loads. Equally important is how power cables move as the table goes up and down. Poor planning here can lead to strain, wear, or failure over time.
+
+* Painting deserves patience.
+Painting taught me its own set of lessons. A clean, dust-free environment is essential, and drying time matters more than it seems. One mistake I won’t repeat is mixing methods — hand-painting the first layer and spray-painting the next. The texture from the brush takes a lot of effort to remove later.
+
+
