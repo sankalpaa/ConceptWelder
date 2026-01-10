@@ -52,6 +52,21 @@ This is the structure that gives the table its shape and strength.
 
 * The tabletop — made from waterproof MDF, chosen for its balance between strength, finish, and practicality.
 
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class = "col-md-4">
+                        <img src="../assets/2026-01-01/height-adjustable-table-bottom.jpg" class="full-width-image" title="Height adujustable table" >
+            </div>
+            <div class = "col-md-4">
+                        <img src="../assets/2026-01-01/height-adjustable-table-top.jpg" class="full-width-image" title="Height adujustable table" >
+            </div>
+            <div class = "col-md-4">
+                        <img src="../assets/2026-01-01/height-adjustable-table-top-view.jpg" title="Height adujustable table" class="full-width-image">
+            </div>
+        </div>
+    </div>
+</div>
 ### The Muscles
 
 Movement comes from the muscles of the system.
@@ -60,16 +75,30 @@ Movement comes from the muscles of the system.
 (750N, 300 mm stroke, 12 V DC, Speed 10mm/s)
 
 These provide the lifting force, working together to raise and lower the table in a controlled and balanced way.
-
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class = "col-md-4">
+                        <img src="../assets/2026-01-01/12v-linear-actuator.png" class="full-width-image" title="Linear Actuator" >
+            </div>
+        </div>
+    </div>
+</div>
 ### The Nervous System
 
 No movement works without control.
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2026-01-01/linear-actuator-controller.png" class="full-width-image" title="Linear actuator controller" >
+    </div>
+</div>
 
 * The controller circuit — responsible for directing motion and handling user input.
 
 * The power supply — delivering stable power to keep everything moving safely and reliably.
 
-## Design and Mechanical Mistakes I Made
+### Design and Mechanical Mistakes I Made
 
 Some lessons are best learned the hard way. This project was no exception.
 
@@ -87,5 +116,53 @@ Where you mount the actuators affects stability, alignment, and side loads. Equa
 
 * Painting deserves patience.
 Painting taught me its own set of lessons. A clean, dust-free environment is essential, and drying time matters more than it seems. One mistake I won’t repeat is mixing methods — hand-painting the first layer and spray-painting the next. The texture from the brush takes a lot of effort to remove later.
+
+# Result
+<div class="row">
+    <div class="col-md-12">
+        <img src="../assets/2026-01-01/first-day-height-adjustable-table.png" class="full-width-image" title="First day with my height adjustable table" >
+    </div>
+</div>
+The first few days were a reminder that change takes time. Standing for even an hour felt tiring, and my body clearly wasn’t used to it. But what surprised me was how quickly that discomfort turned into awareness rather than pain.
+
+As I continued working with the new desk, it started to impress me in quieter ways. I found myself moving more naturally throughout the day. Standing up after long periods of sitting no longer felt like an effort — it happened without thought.
+
+I was no longer locked into a single position. The freedom to shift, stretch, and change posture made long working days feel lighter. Even my eyes felt less tired, simply because I could look around more easily instead of staring at the same fixed point for hours.
+
+In the end, the biggest change wasn’t just the ability to stand — it was the ability to move. And that made all the difference.
+
+# Improvements
+* Use high-quality linear rails to guide the upper moving frame for smoother and more stable motion.
+
+* Add lockable wheels to improve mobility without compromising stability.
+
+* Introduce a synchronizer for the linear actuators to ensure perfectly even movement.
+
+* Implement preset height positions for quick and repeatable transitions between sitting and standing.
+
+* Enable PC-based control for height adjustment and automation.
+
+* Add a power backup to handle power failures and allow safe position recovery.
+
+
+# Conclusion
+* Was it worth it?
+
+Absolutely. Without hesitation.
+
+* Who is this for?
+
+This project is for those who enjoy DIY, who are willing to invest time, and who aren’t afraid of small bugs or cosmetic imperfections along the way. It’s for people who find satisfaction in the process, not just the final product.
+
+* What did I learn?
+
+This was the first moving mechanical structure I built from scratch — welding together simple concepts from mechanics, electronics, and electrical engineering. Piece by piece, those concepts came together into something meaningful.
+
+
+The biggest lesson was this: 
+
+when ideas are welded to action, even simple concepts can turn into something that genuinely supports everyday life. And sometimes, breaking a small prison starts with building something of your own.
+
+
 
 
