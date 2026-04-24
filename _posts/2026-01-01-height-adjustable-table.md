@@ -71,20 +71,10 @@ This is the structure that gives the table its shape and strength.
 * The tabletop — made from waterproof MDF, chosen for its balance between strength, finish, and practicality.
 
 <div class="body-image-wrapper">
-    <div class="row body-image-row">
-        <div class="col-md-12 body-image-title">Items found from home</div>
-    </div>
     <div class="row body-image-container">
-<!--         <div class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-bottom.jpg" class="body-image" title="Items found from home">
-<!--         </div>
-        <div class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-top.jpg" class="body-image" title="Items found from home">
-<!--         </div>
-        <div class="col-md-4"> -->
-            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-top-view.jpg" class="body-image" title="Items found from home">
-<!--         </div> -->
-    </div>
+            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-bottom.jpg" class="body-image" title="Sketch1">
+            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-top.jpg" class="body-image" title="Sketch2">
+            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-top-view.jpg" class="body-image" title="Sketch3">
 </div>
 
 ### The Muscles
@@ -95,22 +85,19 @@ Movement comes from the muscles of the system.
 (750N, 300 mm stroke, 12 V DC, Speed 10mm/s)
 
 These provide the lifting force, working together to raise and lower the table in a controlled and balanced way.
-<div class="row">
-    <div class="col-md-12">
-        <div class="row">
-            <div class = "col-md-4">
-                        <img src="../assets/2026-01-01/12v-linear-actuator.png" class="full-width-image" title="Linear Actuator" >
-            </div>
-        </div>
+<div class="body-image-wrapper">
+    <div class="row body-image-container">
+            <img src="{{site.baseurl}}/assets/2026-01-01/12v-linear-actuator.png" class="body-image" title="Linear actuator">
     </div>
 </div>
+
 ### The Nervous System
 
 No movement works without control.
 
-<div class="row">
-    <div class="col-md-12">
-        <img src="../assets/2026-01-01/linear-actuator-controller.png" class="full-width-image" title="Linear actuator controller" >
+<div class="body-image-wrapper">
+    <div class="row body-image-container">
+            <img src="{{site.baseurl}}/assets/2026-01-01/linear-actuator-controller.png" class="body-image" title="Linear actuator controller">
     </div>
 </div>
 
@@ -138,11 +125,12 @@ Where you mount the actuators affects stability, alignment, and side loads. Equa
 Painting taught me its own set of lessons. A clean, dust-free environment is essential, and drying time matters more than it seems. One mistake I won’t repeat is mixing methods — hand-painting the first layer and spray-painting the next. The texture from the brush takes a lot of effort to remove later.
 
 # Result
-<div class="row">
-    <div class="col-md-12">
-        <img src="../assets/2026-01-01/first-day-height-adjustable-table.png" class="full-width-image" title="First day with my height adjustable table" >
+<div class="body-image-wrapper">
+    <div class="row body-image-container">
+            <img src="{{site.baseurl}}/assets/2026-01-01/first-day-height-adjustable-table.png" class="body-image" title="First day with my height adjustable table">
     </div>
 </div>
+
 The first few days were a reminder that change takes time. Standing for even an hour felt tiring, and my body clearly wasn’t used to it. But what surprised me was how quickly that discomfort turned into awareness rather than pain.
 
 As I continued working with the new desk, it started to impress me in quieter ways. I found myself moving more naturally throughout the day. Standing up after long periods of sitting no longer felt like an effort — it happened without thought.
