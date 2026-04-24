@@ -75,6 +75,7 @@ This is the structure that gives the table its shape and strength.
             <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-bottom.jpg" class="body-image" title="Sketch1">
             <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-top.jpg" class="body-image" title="Sketch2">
             <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-top-view.jpg" class="body-image" title="Sketch3">
+    </div>
 </div>
 
 ### The Muscles
