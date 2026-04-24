@@ -5,6 +5,24 @@ date: 2026-01-01
 
 <!-- Title Tag -->
 <title>Higher desk. Clearer mind | Concept Welder</title>
+<head>
+    <style>
+    .container {
+    border: 1px solid #dedede;
+    background-color: #a39d87;
+    color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%
+    }
+    .quote {
+        font-size:medium;
+        font-style: italic;
+        color: "blue"
+    }
+    </style>
+</head>
 
 # Higher desk. Clearer mind
 ## I was a prisoner.
@@ -52,21 +70,23 @@ This is the structure that gives the table its shape and strength.
 
 * The tabletop — made from waterproof MDF, chosen for its balance between strength, finish, and practicality.
 
-<div class="row">
-    <div class="col-md-12">
-        <div class="row">
-            <div class = "col-md-4">
-                        <img src="../assets/2026-01-01/height-adjustable-table-bottom.jpg" class="full-width-image" title="Height adujustable table" >
-            </div>
-            <div class = "col-md-4">
-                        <img src="../assets/2026-01-01/height-adjustable-table-top.jpg" class="full-width-image" title="Height adujustable table" >
-            </div>
-            <div class = "col-md-4">
-                        <img src="../assets/2026-01-01/height-adjustable-table-top-view.jpg" title="Height adujustable table" class="full-width-image">
-            </div>
-        </div>
+<div class="body-image-wrapper">
+    <div class="row body-image-row">
+        <div class="col-md-12 body-image-title">Items found from home</div>
+    </div>
+    <div class="row body-image-container">
+<!--         <div class="col-md-4"> -->
+            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-bottom.jpg" class="body-image" title="Items found from home">
+<!--         </div>
+        <div class="col-md-4"> -->
+            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-top.jpg" class="body-image" title="Items found from home">
+<!--         </div>
+        <div class="col-md-4"> -->
+            <img src="{{site.baseurl}}/assets/2026-01-01/height-adjustable-table-top-view.jpg" class="body-image" title="Items found from home">
+<!--         </div> -->
     </div>
 </div>
+
 ### The Muscles
 
 Movement comes from the muscles of the system.
